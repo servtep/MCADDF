@@ -1,4 +1,4 @@
-# Microsoft Cybersecurity Attack, Detection \& Defense Framework
+# MCADDF - Microsoft Cybersecurity Attack, Detection \& Defense Framework
 
 **Maintained by:** SERVTEP (France)
 **Lead Architect:** Pchelnikau Artur
@@ -7,7 +7,7 @@
 
 ## Executive Overview
 
-This document serves as the master index for the **Microsoft Cybersecurity Attack, Detection \& Defense Framework**, a comprehensive operational project developed by the research division of **SERVTEP**. Curated under the technical leadership of **Pchelnikau Artur**, this framework provides a structured, tactical roadmap through 501 verified vectors in the modern adversarial lifecycle.
+This document serves as the master index for the **MCADDF - Microsoft Cybersecurity Attack, Detection \& Defense Framework**, a comprehensive operational project developed by the research division of **SERVTEP**. Curated under the technical leadership of **Pchelnikau Artur**, this framework provides a structured, tactical roadmap through 501 verified vectors in the modern adversarial lifecycle.
 
 Unlike traditional pentest checklists, this framework is designed as a holistic resource for Purple Teaming. It bridges the critical gap between offensive tradecraft (Red Team), detection engineering (Blue Team), and architectural hardening (Defense), specifically tailored for **hybrid enterprise environments** (Windows Active Directory, Microsoft Entra ID, Azure, and Microsoft 365).
 
@@ -861,7 +861,7 @@ This file acts as the central navigational hub for the repository.
 
 # Framework Conclusion \& Strategic Application
 
-The **Microsoft Cybersecurity Attack, Detection \& Defense Framework** represents a standardization of the current threat landscape facing hybrid organizations. By documenting **501 distinct vectors**, **SERVTEP** and **Pchelnikau Artur** have provided the community with a unified language to describe how attacks occur across the Microsoft ecosystem—and, crucially, how to detect them.
+The **MCADDF - Microsoft Cybersecurity Attack, Detection \& Defense Framework** represents a standardization of the current threat landscape facing hybrid organizations. By documenting **501 distinct vectors**, **SERVTEP** and **Pchelnikau Artur** have provided the community with a unified language to describe how attacks occur across the Microsoft ecosystem—and, crucially, how to detect them.
 
 ## Operational Value
 
