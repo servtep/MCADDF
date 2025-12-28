@@ -36,23 +36,23 @@ This file acts as the central navigational hub for the repository.
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
 | REC-AD-001 | Tenant Discovery via domain properties | T1590.001 | N/A | Entra ID | [01_Recon/REC-AD-001_Tenant_Discovery.md](01_Recon/REC-AD-001_Tenant_Discovery.md) |
-| REC-AD-002 | Anonymous LDAP Binding domain extraction | T1589.002 | N/A | Windows AD | `01_Recon/REC-AD-002_Anonymous_LDAP.md` |
-| REC-AD-003 | PowerView enumeration for domain mapping | T1087.002 | N/A | Windows AD | `01_Recon/REC-AD-003_PowerView.md` |
-| REC-CLOUD-001 | BloodHound for Azure/Entra privilege paths | T1087.004 | N/A | Entra ID | `01_Recon/REC-CLOUD-001_BloodHound.md` |
-| REC-CLOUD-002 | ROADtools Entra ID enumeration | T1087.004 | N/A | Entra ID | `01_Recon/REC-CLOUD-002_ROADtools.md` |
-| REC-CLOUD-003 | Stormspotter privilege escalation visualization | T1087.004 | N/A | Entra ID | `01_Recon/REC-CLOUD-003_Stormspotter.md` |
-| REC-CLOUD-004 | AADInternals tenant reconnaissance | T1590 | N/A | Entra ID | `01_Recon/REC-CLOUD-004_AADInternals.md` |
-| REC-AD-004 | SPN scanning for kerberoastable accounts | T1087.002 | N/A | Windows AD | `01_Recon/REC-AD-004_SPN_Scanning.md` |
-| REC-AD-005 | BadPwdCount attribute monitoring | T1087.002 | N/A | Windows AD | `01_Recon/REC-AD-005_BadPwdCount.md` |
-| REC-CLOUD-005 | Azure Resource Graph enumeration | T1580 | N/A | Entra ID | `01_Recon/REC-CLOUD-005_Azure_Resource_Graph.md` |
-| REC-M365-001 | Microsoft Graph API enumeration | T1087.004 | N/A | M365 | `01_Recon/REC-M365-001_Graph_API.md` |
-| REC-M365-002 | Cross-tenant service discovery | T1580 | N/A | M365 | `01_Recon/REC-M365-002_Cross_Tenant.md` |
-| REC-CLOUD-006 | Azure service principal enumeration | T1087.004 | N/A | Entra ID | `01_Recon/REC-CLOUD-006_Service_Principals.md` |
-| REC-CERT-001 | ADCS enumeration via Certify | T1087.002 | N/A | Windows AD | `01_Recon/REC-CERT-001_ADCS_Certify.md` |
-| REC-CLOUD-007 | Azure Key Vault access enumeration | T1552.001 | CVE-2023-28432 | Entra ID | `01_Recon/REC-CLOUD-007_KeyVault.md` |
-| REC-HYBRID-001 | Azure AD Connect configuration enumeration | T1590 | CVE-2023-32315 | Hybrid AD | `01_Recon/REC-HYBRID-001_ADConnect.md` |
-| REC-AD-006 | IPv6 DNS poisoning with mitm6 | T1557.001 | N/A | Windows AD | `01_Recon/REC-AD-006_IPv6_DNS.md` |
-| REC-AD-007 | LAPS account discovery | T1087.002 | N/A | Windows AD | `01_Recon/REC-AD-007_LAPS.md` |
+| REC-AD-002 | Anonymous LDAP Binding domain extraction | T1589.002 | N/A | Windows AD | [01_Recon/REC-AD-002_Anonymous_LDAP.md](01_Recon/REC-AD-002_Anonymous_LDAP.md) |
+| REC-AD-003 | PowerView enumeration for domain mapping | T1087.002 | N/A | Windows AD | [01_Recon/REC-AD-003_PowerView.md](01_Recon/REC-AD-003_PowerView.md) |
+| REC-CLOUD-001 | BloodHound for Azure/Entra privilege paths | T1087.004 | N/A | Entra ID | [01_Recon/REC-CLOUD-001_BloodHound.md](01_Recon/REC-CLOUD-001_BloodHound.md) |
+| REC-CLOUD-002 | ROADtools Entra ID enumeration | T1087.004 | N/A | Entra ID | [01_Recon/REC-CLOUD-002_ROADtools.md](01_Recon/REC-CLOUD-002_ROADtools.md) |
+| REC-CLOUD-003 | Stormspotter privilege escalation visualization | T1087.004 | N/A | Entra ID | [01_Recon/REC-CLOUD-003_Stormspotter.md](01_Recon/REC-CLOUD-003_Stormspotter.md) |
+| REC-CLOUD-004 | AADInternals tenant reconnaissance | T1590 | N/A | Entra ID | [01_Recon/REC-CLOUD-004_AADInternals.md](01_Recon/REC-CLOUD-004_AADInternals.md) |
+| REC-AD-004 | SPN scanning for kerberoastable accounts | T1087.002 | N/A | Windows AD | [01_Recon/REC-AD-004_SPN_Scanning.md](01_Recon/REC-AD-004_SPN_Scanning.md) |
+| REC-AD-005 | BadPwdCount attribute monitoring | T1087.002 | N/A | Windows AD | [01_Recon/REC-AD-005_BadPwdCount.md](01_Recon/REC-AD-005_BadPwdCount.md) |
+| REC-CLOUD-005 | Azure Resource Graph enumeration | T1580 | N/A | Entra ID | [01_Recon/REC-CLOUD-005_Azure_Resource_Graph.md](01_Recon/REC-CLOUD-005_Azure_Resource_Graph.md) |
+| REC-M365-001 | Microsoft Graph API enumeration | T1087.004 | N/A | M365 | [01_Recon/REC-M365-001_Graph_API.md](01_Recon/REC-M365-001_Graph_API.md) |
+| REC-M365-002 | Cross-tenant service discovery | T1580 | N/A | M365 | [01_Recon/REC-M365-002_Cross_Tenant.md](01_Recon/REC-M365-002_Cross_Tenant.md) |
+| REC-CLOUD-006 | Azure service principal enumeration | T1087.004 | N/A | Entra ID | [01_Recon/REC-CLOUD-006_Service_Principals.md](01_Recon/REC-CLOUD-006_Service_Principals.md) |
+| REC-CERT-001 | ADCS enumeration via Certify | T1087.002 | N/A | Windows AD | [01_Recon/REC-CERT-001_ADCS_Certify.md](01_Recon/REC-CERT-001_ADCS_Certify.md) |
+| REC-CLOUD-007 | Azure Key Vault access enumeration | T1552.001 | CVE-2023-28432 | Entra ID | [01_Recon/REC-CLOUD-007_KeyVault.md](01_Recon/REC-CLOUD-007_KeyVault.md) |
+| REC-HYBRID-001 | Azure AD Connect configuration enumeration | T1590 | CVE-2023-32315 | Hybrid AD | [01_Recon/REC-HYBRID-001_ADConnect.md](01_Recon/REC-HYBRID-001_ADConnect.md) |
+| REC-AD-006 | IPv6 DNS poisoning with mitm6 | T1557.001 | N/A | Windows AD | [01_Recon/REC-AD-006_IPv6_DNS.md](01_Recon/REC-AD-006_IPv6_DNS.md) |
+| REC-AD-007 | LAPS account discovery | T1087.002 | N/A | Windows AD | [01_Recon/REC-AD-007_LAPS.md](01_Recon/REC-AD-007_LAPS.md) |
 
 ---
 
@@ -60,16 +60,16 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| IA-PHISH-001 | Device code phishing attacks | T1566.002 | N/A | Entra ID/M365 | `02_Initial/IA-PHISH-001_Device_Code.md` |
-| IA-PHISH-002 | Consent grant OAuth attacks | T1566.002 | N/A | Entra ID/M365 | `02_Initial/IA-PHISH-002_Consent_Grant.md` |
-| IA-PHISH-003 | OAuth consent screen cloning | T1566.002 | N/A | M365/Entra ID | `02_Initial/IA-PHISH-003_OAuth_Cloning.md` |
-| IA-PHISH-004 | Company branding login poisoning | T1566.002 | N/A | Entra ID | `02_Initial/IA-PHISH-004_Branding.md` |
-| IA-PHISH-005 | Internal spearphishing campaigns | T1534 | N/A | M365 | `02_Initial/IA-PHISH-005_Internal.md` |
-| IA-PHISH-006 | Exchange EWS impersonation phishing | T1534 | N/A | M365 | `02_Initial/IA-PHISH-006_EWS.md` |
-| IA-EXPLOIT-001 | Azure Application Proxy exploitation | T1190 | N/A | Entra ID | `02_Initial/IA-EXPLOIT-001_App_Proxy.md` |
-| IA-EXPLOIT-002 | BDC deserialization vulnerability | T1190 | N/A | Hybrid AD | `02_Initial/IA-EXPLOIT-002_BDC.md` |
-| IA-EXPLOIT-003 | Logic App HTTP trigger abuse | T1190 | N/A | Entra ID | `02_Initial/IA-EXPLOIT-003_Logic_App.md` |
-| IA-EXPLOIT-004 | Kubelet API unauthorized access | T1190 | N/A | Entra ID | `02_Initial/IA-EXPLOIT-004_Kubelet.md` |
+| IA-PHISH-001 | Device code phishing attacks | T1566.002 | N/A | Entra ID/M365 | [02_Initial/IA-PHISH-001_Device_Code.md](02_Initial/IA-PHISH-001_Device_Code.md) |
+| IA-PHISH-002 | Consent grant OAuth attacks | T1566.002 | N/A | Entra ID/M365 | [02_Initial/IA-PHISH-002_Consent_Grant.md](02_Initial/IA-PHISH-002_Consent_Grant.md) |
+| IA-PHISH-003 | OAuth consent screen cloning | T1566.002 | N/A | M365/Entra ID | [02_Initial/IA-PHISH-003_OAuth_Cloning.md](02_Initial/IA-PHISH-003_OAuth_Cloning.md) |
+| IA-PHISH-004 | Company branding login poisoning | T1566.002 | N/A | Entra ID | [02_Initial/IA-PHISH-004_Branding.md](02_Initial/IA-PHISH-004_Branding.md) |
+| IA-PHISH-005 | Internal spearphishing campaigns | T1534 | N/A | M365 | [02_Initial/IA-PHISH-005_Internal.md](02_Initial/IA-PHISH-005_Internal.md) |
+| IA-PHISH-006 | Exchange EWS impersonation phishing | T1534 | N/A | M365 | [02_Initial/IA-PHISH-006_EWS.md](02_Initial/IA-PHISH-006_EWS.md) |
+| IA-EXPLOIT-001 | Azure Application Proxy exploitation | T1190 | N/A | Entra ID | [02_Initial/IA-EXPLOIT-001_App_Proxy.md](02_Initial/IA-EXPLOIT-001_App_Proxy.md) |
+| IA-EXPLOIT-002 | BDC deserialization vulnerability | T1190 | N/A | Hybrid AD | [02_Initial/IA-EXPLOIT-002_BDC.md](02_Initial/IA-EXPLOIT-002_BDC.md) |
+| IA-EXPLOIT-003 | Logic App HTTP trigger abuse | T1190 | N/A | Entra ID | [02_Initial/IA-EXPLOIT-003_Logic_App.md](02_Initial/IA-EXPLOIT-003_Logic_App.md) |
+| IA-EXPLOIT-004 | Kubelet API unauthorized access | T1190 | N/A | Entra ID | [02_Initial/IA-EXPLOIT-004_Kubelet.md](02_Initial/IA-EXPLOIT-004_Kubelet.md) |
 | IA-EXPLOIT-005 | AKS control plane access exploitation | T1190 | CVE-2025-21196 | Entra ID | `02_Initial/IA-EXPLOIT-005_AKS.md` |
 | IA-EXPLOIT-006 | Legacy API endpoint abuse | T1190 | N/A | M365/Entra ID | `02_Initial/IA-EXPLOIT-006_Legacy_API.md` |
 | IA-VALID-001 | Default credential exploitation | T1078 | N/A | Windows AD/Entra ID | `02_Initial/IA-VALID-001_Default_Creds.md` |
