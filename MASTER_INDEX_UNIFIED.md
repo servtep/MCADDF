@@ -419,9 +419,9 @@
 
 ---
 
-# CATEGORY 7: LATERAL MOVEMENT (54 Techniques)
+# CATEGORY 7: LATERAL MOVEMENT (50 Techniques)
 
-## Subcategory 7.1: Remote Services (15 techniques)
+## Subcategory 7.1: Remote Services (11 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
