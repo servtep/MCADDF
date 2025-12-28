@@ -70,10 +70,10 @@ This file acts as the central navigational hub for the repository.
 | IA-EXPLOIT-002 | BDC deserialization vulnerability | T1190 | N/A | Hybrid AD | [02_Initial/IA-EXPLOIT-002_BDC.md](02_Initial/IA-EXPLOIT-002_BDC.md) |
 | IA-EXPLOIT-003 | Logic App HTTP trigger abuse | T1190 | N/A | Entra ID | [02_Initial/IA-EXPLOIT-003_Logic_App.md](02_Initial/IA-EXPLOIT-003_Logic_App.md) |
 | IA-EXPLOIT-004 | Kubelet API unauthorized access | T1190 | N/A | Entra ID | [02_Initial/IA-EXPLOIT-004_Kubelet.md](02_Initial/IA-EXPLOIT-004_Kubelet.md) |
-| IA-EXPLOIT-005 | AKS control plane access exploitation | T1190 | CVE-2025-21196 | Entra ID | `02_Initial/IA-EXPLOIT-005_AKS.md` |
-| IA-EXPLOIT-006 | Legacy API endpoint abuse | T1190 | N/A | M365/Entra ID | `02_Initial/IA-EXPLOIT-006_Legacy_API.md` |
-| IA-VALID-001 | Default credential exploitation | T1078 | N/A | Windows AD/Entra ID | `02_Initial/IA-VALID-001_Default_Creds.md` |
-| IA-VALID-002 | Stale/inactive account compromise | T1078 | N/A | Windows AD/Entra ID | `02_Initial/IA-VALID-002_Stale_Accounts.md` |
+| IA-EXPLOIT-005 | AKS control plane access exploitation | T1190 | CVE-2025-21196 | Entra ID | [02_Initial/IA-EXPLOIT-005_AKS.md](02_Initial/IA-EXPLOIT-005_AKS.md) |
+| IA-EXPLOIT-006 | Legacy API endpoint abuse | T1190 | N/A | M365/Entra ID | [02_Initial/IA-EXPLOIT-006_Legacy_API.md](02_Initial/IA-EXPLOIT-006_Legacy_API.md) |
+| IA-VALID-001 | Default credential exploitation | T1078 | N/A | Windows AD/Entra ID | [02_Initial/IA-VALID-001_Default_Creds.md](02_Initial/IA-VALID-001_Default_Creds.md) |
+| IA-VALID-002 | Stale/inactive account compromise | T1078 | N/A | Windows AD/Entra ID | [02_Initial/IA-VALID-002_Stale_Accounts.md](02_Initial/IA-VALID-002_Stale_Accounts.md) |
 
 ---
 
