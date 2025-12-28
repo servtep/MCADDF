@@ -7,7 +7,7 @@
 
 **The definitive operational blueprint for Hybrid Identity and Cloud Security.**
 
-Maintained by **[SERVTEP](https://servtep.com)** | Lead Architect: **Pchelnikau Artur**
+Maintained by **[SERVTEP](https://servtep.com)** | Lead Architect: **[Pchelnikau Artur](https://www.linkedin.com/in/artur-pchelnikau/)**
 
 ---
 
@@ -124,7 +124,7 @@ This is a living framework. As the Microsoft ecosystem evolves, so do the threat
 >
 > The contents of this repository are for **authorized security testing, educational purposes, and defensive research**. The techniques listed involve mechanisms that can disrupt critical business operations or bypass security controls.
 >
-> **SERVTEP** and **Pchelnikau Artur** accept no liability for any damage caused by the misuse of this information. Users are responsible for ensuring all activities are conducted within the scope of a signed Rule of Engagement (RoE) and in compliance with all applicable local, federal, and international laws.
+> **[SERVTEP](https://servtep.com)** and **[Pchelnikau Artur](https://www.linkedin.com/in/artur-pchelnikau/)** accept no liability for any damage caused by the misuse of this information. Users are responsible for ensuring all activities are conducted within the scope of a signed Rule of Engagement (RoE) and in compliance with all applicable local, federal, and international laws.
 
 ---
 
@@ -135,5 +135,5 @@ This project is licensed under the terms of the [LICENSE](./LICENSE) file.
 ---
 
 <p align="center">
-  Built with ❤️ in France by <strong>SERVTEP</strong>
+  Built with ❤️ in France by <strong>[SERVTEP](https://servtep.com)</strong>
 </p>
