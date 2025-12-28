@@ -35,7 +35,7 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REC-AD-001 | Tenant Discovery via domain properties | T1590.001 | N/A | Entra ID | `[01_Recon/REC-AD-001_Tenant_Discovery.md](01_Recon/REC-AD-001_Tenant_Discovery.md)` |
+| REC-AD-001 | Tenant Discovery via domain properties | T1590.001 | N/A | Entra ID | [01_Recon/REC-AD-001_Tenant_Discovery.md](01_Recon/REC-AD-001_Tenant_Discovery.md) |
 | REC-AD-002 | Anonymous LDAP Binding domain extraction | T1589.002 | N/A | Windows AD | `01_Recon/REC-AD-002_Anonymous_LDAP.md` |
 | REC-AD-003 | PowerView enumeration for domain mapping | T1087.002 | N/A | Windows AD | `01_Recon/REC-AD-003_PowerView.md` |
 | REC-CLOUD-001 | BloodHound for Azure/Entra privilege paths | T1087.004 | N/A | Entra ID | `01_Recon/REC-CLOUD-001_BloodHound.md` |
