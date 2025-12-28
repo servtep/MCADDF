@@ -3,6 +3,7 @@
 **Maintained by:** SERVTEP (France)
 **Lead Architect:** Pchelnikau Artur
 **Version:** 1.0 (Final Verified)
+**Framework Alignment:** MITRE ATT\&CK® v18.1
 
 ## Executive Overview
 
@@ -12,7 +13,7 @@ Unlike traditional pentest checklists, this framework is designed as a holistic 
 
 ## Scope and Architecture
 
-The framework is methodically organized by tactical phase, mapping the progression of a sophisticated adversary. It encompasses:
+The framework is methodically organized by tactical phase and has been fully aligned with the **MITRE ATT\&CK® v18.1** standard. It encompasses:
 
 * **Hybrid Identity Vectors:** Deep-dive methodologies for compromising and defending the synchronization points between on-premises AD and the cloud.
 * **Cloud-Native Exploitation:** Targeted techniques for Azure Resources, Logic Apps, and SaaS persistence mechanisms.
@@ -23,8 +24,8 @@ The framework is methodically organized by tactical phase, mapping the progressi
 
 This file acts as the central navigational hub for the repository.
 
-* **ID System:** Each technique is assigned a unique identifier (e.g., `REC-AD-001`, `CA-DUMP-005`) for precise referencing in reports and SIEM rules.
-* **MITRE Mapping:** Use the MITRE T-codes (e.g., `T1590.001`) to correlate techniques with threat intelligence feeds.
+* **SERVTEP ID System:** To simplify navigation, we have developed a proprietary identifier system (e.g., `REC-AD-001`, `CA-DUMP-005`). These **SERVTEP IDs** are structured similarly to MITRE IDs but are specific to this framework, allowing for precise tracking of custom techniques within our repository.
+* **MITRE v18.1 Mapping:** Each technique is mapped to the latest MITRE T-codes (e.g., `T1590.001`) to ensure seamless correlation with modern threat intelligence feeds and defensive stacks.
 * **File Paths:** Direct references to the detailed markdown files allow for modular access to execution steps, prerequisites, and operational security (OpSec) considerations.
 
 > **⚠️ DISCLOSURE \& COMPLIANCE**
@@ -867,21 +868,20 @@ The **Microsoft Cybersecurity Attack, Detection \& Defense Framework** represent
 For security professionals, this framework supports three primary pillars:
 
 1. **Offensive Operations (Red Teaming):**
-    * Serves as a "cheat sheet" for campaign planning, ensuring comprehensive coverage of potential attack paths during engagements.
-    * Facilitates the chaining of techniques (e.g., *Cred Dumping* → *Pass-the-Hash* → *Cloud Lateral Movement*) to simulate realistic APT behaviors.
+    * Serves as a "cheat sheet" for campaign planning, utilizing the **SERVTEP ID** system to quickly reference and chain techniques (e.g., `REC-AD-001` → `CA-DUMP-002`) during complex engagements.
+    * Simulates realistic APT behaviors by covering the full spectrum of the kill chain.
 2. **Detection \& Defense (Blue Teaming):**
-    * **Detection Engineering:** Every technique listed here serves as a test case for validating SIEM alerts (Sigma/YARA).
-    * **Gap Analysis:** Allows defenders to systematically validate controls against specific MITRE T-codes, ensuring no coverage gaps exist between on-prem and cloud scopes.
+    * **Detection Engineering:** Every technique listed here serves as a test case for validating SIEM alerts (Sigma/YARA), fully aligned with **MITRE ATT\&CK v18.1** logic.
+    * **Gap Analysis:** Allows defenders to systematically validate controls against specific T-codes, ensuring no coverage gaps exist between on-prem and cloud scopes.
 3. **Risk Assessment:**
     * Enables auditors and architects to prioritize remediation efforts based on the prevalence and severity of techniques validated by SERVTEP's research.
 
 ## The Path Forward
 
-The cybersecurity landscape is volatile by design. While these 501 techniques represent the state of the art in hybrid exploitation today, the methodologies will evolve. This framework is maintained as a living project by **SERVTEP**—continuously updated as vendors patch vulnerabilities, new attack surfaces emerge, and adversaries shift their tradecraft.
+The cybersecurity landscape is volatile by design. While these 501 techniques represent the state of the art in hybrid exploitation today, the methodologies will evolve. This framework is maintained as a living project by **SERVTEP**—continuously updated as vendors patch vulnerabilities, new attack surfaces emerge, and the MITRE ATT\&CK standard progresses beyond v18.1.
 
 *Final Verification Completed: December 2025*
 *Lead Architect: Pchelnikau Artur*
 *Organization: SERVTEP*
-<span style="display:none">[^1]</span>
 
 <div align="center">⁂</div>
