@@ -98,23 +98,23 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| CA-KERB-001 | Kerberoasting weak service accounts | T1558.003 | N/A | Windows AD | `03_Cred/CA-KERB-001_Kerberoasting.md` |
-| CA-KERB-002 | AS-REP roasting pre-auth disabled | T1558.004 | N/A | Windows AD | `03_Cred/CA-KERB-002_ASREPRoasting.md` |
-| CA-KERB-003 | Golden ticket creation krbtgt | T1558.001 | CVE-2014-6324 | Windows AD | `03_Cred/CA-KERB-003_Golden_Ticket.md` |
-| CA-KERB-004 | Silver ticket forgery | T1558.002 | N/A | Windows AD | `03_Cred/CA-KERB-004_Silver_Ticket.md` |
-| CA-KERB-005 | Unconstrained delegation abuse | T1558 | CVE-2014-6324 | Windows AD | `03_Cred/CA-KERB-005_Unconstrained.md` |
-| CA-KERB-006 | Constrained delegation abuse | T1558 | CVE-2021-42287 | Windows AD | `03_Cred/CA-KERB-006_Constrained.md` |
-| CA-KERB-007 | MS14-068 checksum bypass | T1558 | CVE-2014-3967 | Windows AD | `03_Cred/CA-KERB-007_MS14-068.md` |
-| CA-KERB-008 | Bronze Bit ticket signing bypass | T1558 | CVE-2020-17049 | Windows AD | `03_Cred/CA-KERB-008_Bronze_Bit.md` |
-| CA-KERB-009 | PKINIT downgrade attacks | T1558 | N/A | Windows AD | `03_Cred/CA-KERB-009_PKINIT.md` |
-| CA-KERB-010 | Time-based Kerberos exploitation | T1558 | N/A | Windows AD | `03_Cred/CA-KERB-010_Time_Based.md` |
-| CA-KERB-011 | No-PAC Kerberos bypass | T1558 | N/A | Windows AD | `03_Cred/CA-KERB-011_No_PAC.md` |
-| CA-KERB-012 | Golden ticket SIDHistory manipulation | T1558.001 | CVE-2014-6324 | Windows AD | `03_Cred/CA-KERB-012_Golden_SID.md` |
-| CA-KERB-013 | Krbtgt cross-forest reuse | T1558.001 | CVE-2014-6324 | Windows AD | `03_Cred/CA-KERB-013_Krbtgt.md` |
-| CA-KERB-014 | UnPAC-The-Hash Kerberos cracking | T1558 | CVE-2022-33679 | Windows AD | `03_Cred/CA-KERB-014_UnPAC.md` |
-| CA-KERB-015 | CCACHE keyring ticket reuse | T1558 | N/A | Linux/Unix | `03_Cred/CA-KERB-015_CCACHE_Keyring.md` |
-| CA-KERB-016 | SSSD KCM CCACHE extraction | T1558 | N/A | Linux/Unix | `03_Cred/CA-KERB-016_SSSD.md` |
-| CA-KERB-017 | Keytab CCACHE ticket reuse | T1558 | N/A | Linux/Unix | `03_Cred/CA-KERB-017_Keytab.md` |
+| CA-KERB-001 | Kerberoasting weak service accounts | T1558.003 | N/A | Windows AD | [03_Cred/CA-KERB-001_Kerberoasting.md](03_Cred/CA-KERB-001_Kerberoasting.md) |
+| CA-KERB-002 | AS-REP roasting pre-auth disabled | T1558.004 | N/A | Windows AD | [03_Cred/CA-KERB-002_ASREPRoasting.md](03_Cred/CA-KERB-002_ASREPRoasting.md) |
+| CA-KERB-003 | Golden ticket creation krbtgt | T1558.001 | CVE-2014-6324 | Windows AD | [03_Cred/CA-KERB-003_Golden_Ticket.md](03_Cred/CA-KERB-003_Golden_Ticket.md) |
+| CA-KERB-004 | Silver ticket forgery | T1558.002 | N/A | Windows AD | [03_Cred/CA-KERB-004_Silver_Ticket.md](03_Cred/CA-KERB-004_Silver_Ticket.md) |
+| CA-KERB-005 | Unconstrained delegation abuse | T1558 | CVE-2014-6324 | Windows AD | [03_Cred/CA-KERB-005_Unconstrained.md](03_Cred/CA-KERB-005_Unconstrained.md) |
+| CA-KERB-006 | Constrained delegation abuse | T1558 | CVE-2021-42287 | Windows AD | [03_Cred/CA-KERB-006_Constrained.md](03_Cred/CA-KERB-006_Constrained.md) |
+| CA-KERB-007 | MS14-068 checksum bypass | T1558 | CVE-2014-3967 | Windows AD | [03_Cred/CA-KERB-007_MS14-068.md](03_Cred/CA-KERB-007_MS14-068.md) |
+| CA-KERB-008 | Bronze Bit ticket signing bypass | T1558 | CVE-2020-17049 | Windows AD | [03_Cred/CA-KERB-008_Bronze_Bit.md](03_Cred/CA-KERB-008_Bronze_Bit.md) |
+| CA-KERB-009 | PKINIT downgrade attacks | T1558 | N/A | Windows AD | [03_Cred/CA-KERB-009_PKINIT.md](03_Cred/CA-KERB-009_PKINIT.md) |
+| CA-KERB-010 | Time-based Kerberos exploitation | T1558 | N/A | Windows AD | [03_Cred/CA-KERB-010_Time_Based.md](03_Cred/CA-KERB-010_Time_Based.md) |
+| CA-KERB-011 | No-PAC Kerberos bypass | T1558 | N/A | Windows AD | [03_Cred/CA-KERB-011_No_PAC.md](03_Cred/CA-KERB-011_No_PAC.md) |
+| CA-KERB-012 | Golden ticket SIDHistory manipulation | T1558.001 | CVE-2014-6324 | Windows AD | [03_Cred/CA-KERB-012_Golden_SID.md](03_Cred/CA-KERB-012_Golden_SID.md) |
+| CA-KERB-013 | Krbtgt cross-forest reuse | T1558.001 | CVE-2014-6324 | Windows AD | [03_Cred/CA-KERB-013_Krbtgt.md](03_Cred/CA-KERB-013_Krbtgt.md) |
+| CA-KERB-014 | UnPAC-The-Hash Kerberos cracking | T1558 | CVE-2022-33679 | Windows AD | [03_Cred/CA-KERB-014_UnPAC.md](03_Cred/CA-KERB-014_UnPAC.md) |
+| CA-KERB-015 | CCACHE keyring ticket reuse | T1558 | N/A | Linux/Unix | [03_Cred/CA-KERB-015_CCACHE_Keyring.md](03_Cred/CA-KERB-015_CCACHE_Keyring.md) |
+| CA-KERB-016 | SSSD KCM CCACHE extraction | T1558 | N/A | Linux/Unix | [03_Cred/CA-KERB-016_SSSD.md](03_Cred/CA-KERB-016_SSSD.md) |
+| CA-KERB-017 | Keytab CCACHE ticket reuse | T1558 | N/A | Linux/Unix | [03_Cred/CA-KERB-017_Keytab.md](03_Cred/CA-KERB-017_Keytab.md) |
 
 ## Subcategory 3.3: Password Stores & Unsecured Credentials (26 techniques)
 
