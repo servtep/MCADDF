@@ -116,7 +116,7 @@ These codes define the specific environment or technology stack targeted by the 
 | **HYBRID** | Sync Architecture | Azure AD Connect, Microsoft Entra Connect, PHS, PTA, Federation (ADFS), Seamless SSO |
 | **PHISH** | Social Engineering | OAuth Consent Grants, Device Code Phishing, Branding Spoofing |
 | **EXPLOIT**| Vulnerability Exploitation | CVEs, Deserialization, Logic Apps, Unpatched Services |
-| **CERT** | Certificate Services | ADCS (Active Directory Certificate Services), ESC1-ESC8, CA Misconfigs |
+| **CERT** | Certificate Services | ADCS (Active Directory Certificate Services), ESC1-ESC16, CA Misconfigs |
 | **CONTAINER**| Cloud Native | Azure Kubernetes Service (AKS), Kubelet API, Docker, Pod Escape |
 | **SQL** | Database Services | Azure SQL, MSSQL, Data Exfiltration, SQL Injection |
 | **ENDO** | Endpoint / OS | Windows 10/11, Server OS, Local Security Authority (LSA) |
