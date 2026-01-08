@@ -18,7 +18,7 @@
 | **Repository** | https://github.com/Gerenios/AADInternals |
 | **Website** | https://aadinternals.com |
 | **MITRE Software ID** | S0677 |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
