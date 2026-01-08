@@ -14,7 +14,7 @@
 | **Requires Authentication** | Yes (Valid domain user for BadPwdCount queries) |
 | **Applicable Versions** | All Windows AD domains (badPwdCount non-replicated across DCs) |
 | **Last Verified** | December 2025 |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
