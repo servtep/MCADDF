@@ -14,7 +14,7 @@
 | **Requires Authentication** | Yes (Domain user with LAPS read permissions; often overprivileged) |
 | **Applicable Versions** | All Windows LAPS deployments (legacy + Windows LAPS v2) |
 | **Last Verified** | December 2025 |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
