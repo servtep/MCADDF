@@ -14,7 +14,7 @@
 | **Requires Authentication** | Yes (Valid domain user required) |
 | **Applicable Versions** | All Windows AD domains |
 | **Last Verified** | December 2025 |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
