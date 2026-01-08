@@ -14,7 +14,7 @@
 | **Last Verified** | 2025-12-30 |
 | **Affected Versions** | All systems with identity governance gaps (hybrid AD/Entra ID especially) |
 | **Patched In** | Requires identity lifecycle management implementation (non-technical fix) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
