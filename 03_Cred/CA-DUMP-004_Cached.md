@@ -14,7 +14,7 @@
 | **Last Verified** | 2026-01-02 |
 | **Affected Versions** | Windows Vista, 7, 8, 10, 11, Server 2016, 2019, 2022, 2025 |
 | **Patched In** | N/A (inherent design) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
@@ -1390,9 +1390,5 @@ Set-ItemProperty -Path $RegistryPath -Name "MaxSize" -Value 1073741824  # 1 GB r
 - **Whitelist legitimate processes:** Exclude `C:\Program Files\*\` from suspicious registry access alerts
 - **Threshold adjustment:** Consider 2-3 SECURITY registry accesses as baseline (before alerting)
 - **Exclude:** Automated compliance scanning tools that access SECURITY hive
-
----
-
-**End of Documentation**
 
 ---
