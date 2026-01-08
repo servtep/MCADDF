@@ -28,7 +28,7 @@ Unlike standard checklists, this framework maps the entire adversarial lifecycle
 
 ### Who I Am
 **Artur Pchelnikau** — CISO | IT Project Manager | Microsoft Security Architect | Penetration Tester | OSINT Expert  
-**17+ years** architecting & implementing secure Microsoft infrastructure at enterprise scale
+**18+ years** architecting & implementing secure Microsoft infrastructure at enterprise scale
 
 ### What I Do
 Comprehensive cybersecurity consulting & program management for **Active Directory | Azure | Entra ID | M365 | Hybrid Security**
