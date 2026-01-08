@@ -14,7 +14,7 @@
 | **Last Verified** | 2025-05-17 |
 | **Affected Versions** | All Entra ID versions with custom branding enabled |
 | **Patched In** | N/A (Microsoft feature; no patch available; only mitigations via CSP and user education) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
