@@ -14,7 +14,7 @@
 | **Requires Authentication** | Yes (compromised credentials or tokens) |
 | **Applicable Versions** | All Azure/Entra ID tenants |
 | **Last Verified** | December 2025 |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
