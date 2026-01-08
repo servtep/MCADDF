@@ -14,7 +14,7 @@
 | **Last Verified** | 2025-04-22 |
 | **Affected Versions** | All M365 tenants with first-party OAuth apps enabled (VSCode, Teams, Auth Broker) |
 | **Patched In** | N/A (design limitation; mitigations via admin consent, conditional access, DMARC signing) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
