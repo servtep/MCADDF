@@ -14,7 +14,7 @@
 | **Last Verified** | 2025-12-15 |
 | **Affected Versions** | All Entra ID versions; all browser-based M365 clients |
 | **Patched In** | N/A (design-level OAuth flaw; mitigations are behavioral and endpoint-based only) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
