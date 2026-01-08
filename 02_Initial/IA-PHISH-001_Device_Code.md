@@ -14,7 +14,7 @@
 | **Last Verified** | 2025-02-13 |
 | **Affected Versions** | All Entra ID versions (all Microsoft 365 subscription levels) |
 | **Patched In** | N/A (design-level issue, mitigations via Conditional Access only) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
