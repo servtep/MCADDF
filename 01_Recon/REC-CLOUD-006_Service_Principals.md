@@ -15,7 +15,7 @@
 | **Applicable Versions** | All Entra ID tenants |
 | **Last Verified** | December 2025 |
 | **Graph Permissions Count** | 576+ unique permissions across all endpoints |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
