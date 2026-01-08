@@ -16,7 +16,7 @@
 | **Last Verified** | December 2025 |
 | **Tool Author** | Dirk-Jan Mollema (@_dirkjan) |
 | **Repository** | https://github.com/dirkjanm/ROADtools |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
