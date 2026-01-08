@@ -14,7 +14,7 @@
 | **Last Verified** | 2026-01-02 |
 | **Affected Versions** | Windows Server 2008 R2, 2012, 2012 R2, 2016, 2019, 2022, 2025 |
 | **Patched In** | N/A (no patch exists - inherent AD design) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
@@ -1339,10 +1339,6 @@ Get-ADUser -Filter {adminCount -eq 1} -Properties WhenCreated | `
 - **Baseline admin activity:** Establish normal ntdsutil/esentutl usage patterns
 - **Alert on suspicious combinations:** e.g., ntdsutil + file copy to network share in same session
 - **Monitor backup locations:** Restrict access to IFM backup folders
-
----
-
-**End of Documentation**
 
 ---
 
