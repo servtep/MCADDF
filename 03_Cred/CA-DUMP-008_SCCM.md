@@ -13,7 +13,7 @@
 | **Last Verified** | 2025-01-02 |
 | **Affected Versions** | Windows Server 2016-2025, SCCM/MECM 2016-2403 |
 | **Patched In** | Unpatched (Workaround: Disable NAA accounts in AD) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
