@@ -14,7 +14,7 @@
 | **Requires Authentication** | No (for RootDSE discovery); Optional (for full enumeration) |
 | **Applicable Versions** | Windows Server 2012 R2+ (all AD versions) |
 | **Last Verified** | December 2025 |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
