@@ -13,7 +13,7 @@
 | **Last Verified** | 2025-01-02 |
 | **Affected Versions** | Windows Server 2003-2025 (all editions) |
 | **Patched In** | Unpatched (Mitigation: Disable "Store password using reversible encryption" policy) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
