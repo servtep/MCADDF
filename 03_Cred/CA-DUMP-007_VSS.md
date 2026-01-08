@@ -14,7 +14,7 @@
 | **Last Verified** | 2026-01-02 |
 | **Affected Versions** | Windows Server 2008 R2, 2012, 2012 R2, 2016, 2019, 2022, 2025 |
 | **Patched In** | N/A (VSS is inherent to Windows; no patch exists) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
@@ -1131,9 +1131,5 @@ wevtutil epl System C:\Evidence\System.evtx
 - **Whitelist legitimate tools:** Exclude backup software VSS usage
 - **Alert thresholds:** Distinguish one-off admin tasks from attack patterns
 - **Correlation:** Alert only when VSS + NTDS access + exfiltration in same session
-
----
-
-**End of Documentation**
 
 ---
