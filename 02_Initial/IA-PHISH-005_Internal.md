@@ -14,7 +14,7 @@
 | **Last Verified** | 2025-12-15 |
 | **Affected Versions** | All M365 environments; particularly those without MFA or inbox rule monitoring |
 | **Patched In** | N/A (design limitation; mitigations via conditional access, audit logging, user training) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
