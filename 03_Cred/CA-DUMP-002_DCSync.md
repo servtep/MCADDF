@@ -14,7 +14,7 @@
 | **Last Verified** | 2026-01-02 |
 | **Affected Versions** | Windows Server 2003-2025 (any version with Active Directory) |
 | **Patched In** | N/A - Cannot be patched; replication is essential function |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
@@ -1532,10 +1532,6 @@ mimikatz # kerberos::golden /user:Administrator /domain:telecom.gov /sid:S-1-5-2
 - Multi-year dwell time (2+ years of undetected access).
 
 **Reference:** [Operation Wocao Report](https://www.shadowserver.org/news/operation-wocao-detailed-report/)
-
----
-
-**END OF MODULE CA-DUMP-002**
 
 ---
 
