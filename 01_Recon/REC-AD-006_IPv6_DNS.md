@@ -14,7 +14,7 @@
 | **Requires Authentication** | No (Network access sufficient; unauthenticated attack) |
 | **Applicable Versions** | All Windows Vista, 7, 8, 10, 11, Server 2008+ |
 | **Last Verified** | December 2025 |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
