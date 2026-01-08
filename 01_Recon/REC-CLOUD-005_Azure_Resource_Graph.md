@@ -15,7 +15,7 @@
 | **Applicable Versions** | All Azure commercial, government, and sovereign clouds |
 | **Last Verified** | December 2025 |
 | **Official Documentation** | https://learn.microsoft.com/en-us/azure/governance/resource-graph/ |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
