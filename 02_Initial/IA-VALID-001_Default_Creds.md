@@ -14,7 +14,7 @@
 | **Last Verified** | 2025-12-30 |
 | **Affected Versions** | All systems with unchanged default credentials |
 | **Patched In** | Requires manual remediation (force password change on first login) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
