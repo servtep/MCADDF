@@ -13,7 +13,7 @@
 | **Last Verified** | 2025-01-02 |
 | **Affected Versions** | Windows Vista-2025 (Desktop/Server editions) |
 | **Patched In** | Unpatched (Mitigation: Disable WDigest, Enable LSASS PPL/Credential Guard) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
