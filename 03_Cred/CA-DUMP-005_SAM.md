@@ -14,7 +14,7 @@
 | **Last Verified** | 2026-01-02 |
 | **Affected Versions** | Windows XP, Vista, 7, 8, 10, 11, Server 2003, 2008, 2012, 2016, 2019, 2022, 2025 |
 | **Patched In** | N/A (inherent design - no official patch exists) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
@@ -1459,9 +1459,5 @@ index=main sourcetype="WinEventLog:Security" EventCode=4688
 - **Whitelist legitimate processes:** Exclude backup software, antivirus tools that access SAM
 - **Threshold adjustment:** Consider 1-2 registry SAM accesses as baseline before alerting
 - **Exclude:** Automated compliance scanning tools
-
----
-
-**End of Documentation**
 
 ---
