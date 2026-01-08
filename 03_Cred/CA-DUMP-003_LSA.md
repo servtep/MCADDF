@@ -14,7 +14,7 @@
 | **Last Verified** | 2026-01-02 |
 | **Affected Versions** | Windows XP-11, Server 2003-2025 (all versions equally vulnerable) |
 | **Patched In** | N/A - Registry structure is permanent Windows component |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
@@ -1255,10 +1255,6 @@ Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
 - No viable backup recovery (backups deleted using stolen creds).
 - Victims forced to pay ransom (often millions of dollars).
 - Extended recovery time (months to rebuild from scratch).
-
----
-
-**END OF MODULE CA-DUMP-003**
 
 ---
 
