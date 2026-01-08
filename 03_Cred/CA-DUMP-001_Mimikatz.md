@@ -14,7 +14,7 @@
 | **Last Verified** | 2026-01-02 |
 | **Affected Versions** | Windows Server 2016, 2019, 2022, 2025; Windows 10/11 all versions |
 | **Patched In** | N/A - Technique continues to evolve; mitigations improve per version |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
@@ -1917,10 +1917,6 @@ mimikatz # lsadump::lsa /inject
 - Kerberos tickets revoked domain-wide.
 
 **Reference:** [CISA Advisory on APT28](https://www.cisa.gov/news-events/cybersecurity-advisories)
-
----
-
-**END OF MODULE CA-DUMP-001**
 
 ---
 
