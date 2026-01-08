@@ -16,7 +16,7 @@
 | **Last Verified** | December 2025 |
 | **Tool Author** | Microsoft Azure Security Engineering (open-source) |
 | **Repository** | https://github.com/Azure/Stormspotter |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
