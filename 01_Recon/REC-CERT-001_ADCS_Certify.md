@@ -14,7 +14,7 @@
 | **Requires Authentication** | Yes (Domain user with enrollment rights; often misconfigured) |
 | **Applicable Versions** | All Windows ADCS deployments |
 | **Last Verified** | December 2025 |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
