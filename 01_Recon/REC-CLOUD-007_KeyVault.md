@@ -14,7 +14,7 @@
 | **Requires Authentication** | Yes (RBAC role or access policy permission) |
 | **Applicable Versions** | All Azure Key Vaults; MinIO versions RELEASE.2019-12 through RELEASE.2023-03 |
 | **Last Verified** | December 2025 |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
