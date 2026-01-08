@@ -14,7 +14,7 @@
 | **Last Verified** | 2025-10-21 |
 | **Affected Versions** | All Entra ID versions (all Microsoft 365 subscription levels); Defender for Cloud Apps required for detection |
 | **Patched In** | N/A (OAuth inherent design; mitigations via policy and detection only) |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
