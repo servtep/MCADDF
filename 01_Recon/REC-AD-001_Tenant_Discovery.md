@@ -14,7 +14,7 @@
 | **Requires Authentication** | No |
 | **Applicable Versions** | All Entra ID tenants (including GCC-H, DOD clouds) |
 | **Last Verified** | December 2025 |
-| **Author** | SERVTEP (Pchelnikau Artur) |
+| **Author** | [SERVTEP](https://servtep.com/) – [Artur Pchelnikau](https://www.linkedin.com/in/artur-pchelnikau/) |
 
 ---
 
