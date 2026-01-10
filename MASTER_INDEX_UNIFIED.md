@@ -458,61 +458,61 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| LM-REMOTE-001 | SMB/Windows Admin Shares | T1021.002 | N/A | Windows Endpoint | `07_Lateral/LM-REMOTE-001_SMB_Shares.md` |
-| LM-REMOTE-002 | Distributed Component Object Model (DCOM) | T1021.003 | N/A | Windows Endpoint | `07_Lateral/LM-REMOTE-002_DCOM.md` |
-| LM-REMOTE-003 | Remote Desktop Protocol (RDP) | T1021.001 | N/A | Windows Endpoint | `07_Lateral/LM-REMOTE-003_RDP.md` |
-| LM-REMOTE-004 | Windows Remote Management (WinRM) | T1021.006 | N/A | Windows Endpoint | `07_Lateral/LM-REMOTE-004_WinRM.md` |
-| LM-REMOTE-005 | SMB/RDP/PS Remoting/WMI Chaining | T1021 | N/A | Windows Endpoint | `07_Lateral/LM-REMOTE-005_Multi_Protocol.md` |
-| LM-REMOTE-006 | WebClient/WebDAV Lateral Movement | T1021 | N/A | Windows Endpoint | `07_Lateral/LM-REMOTE-006_WebDAV.md` |
-| LM-REMOTE-007 | Azure VM to VM Lateral Movement | T1021 | N/A | Entra ID | `07_Lateral/LM-REMOTE-007_Azure_VM.md` |
-| LM-REMOTE-008 | Azure VNET Peering Traversal | T1021 | N/A | Entra ID | `07_Lateral/LM-REMOTE-008_VNET_Peering.md` |
-| LM-REMOTE-009 | Private Link/Service Endpoint | T1021 | N/A | Entra ID | `07_Lateral/LM-REMOTE-009_PrivateLink.md` |
-| LM-REMOTE-010 | Azure Virtual WAN Trust Exploitation | T1021 | N/A | Entra ID | `07_Lateral/LM-REMOTE-010_vWAN.md` |
-| LM-REMOTE-011 | Azure-to-On-Premises Movement | T1021 | N/A | Hybrid AD | `07_Lateral/LM-REMOTE-011_Azure2OnPrem.md` |
+| LM-REMOTE-001 | SMB/Windows Admin Shares | T1021.002 | N/A | Windows Endpoint | [07_Lateral/LM-REMOTE-001_SMB_Shares.md](07_Lateral/LM-REMOTE-001_SMB_Shares.md) |
+| LM-REMOTE-002 | Distributed Component Object Model (DCOM) | T1021.003 | N/A | Windows Endpoint | [07_Lateral/LM-REMOTE-002_DCOM.md](07_Lateral/LM-REMOTE-002_DCOM.md) |
+| LM-REMOTE-003 | Remote Desktop Protocol (RDP) | T1021.001 | N/A | Windows Endpoint | [07_Lateral/LM-REMOTE-003_RDP.md](07_Lateral/LM-REMOTE-003_RDP.md) |
+| LM-REMOTE-004 | Windows Remote Management (WinRM) | T1021.006 | N/A | Windows Endpoint | [07_Lateral/LM-REMOTE-004_WinRM.md](07_Lateral/LM-REMOTE-004_WinRM.md) |
+| LM-REMOTE-005 | SMB/RDP/PS Remoting/WMI Chaining | T1021 | N/A | Windows Endpoint | [07_Lateral/LM-REMOTE-005_Multi_Protocol.md](07_Lateral/LM-REMOTE-005_Multi_Protocol.md) |
+| LM-REMOTE-006 | WebClient/WebDAV Lateral Movement | T1021 | N/A | Windows Endpoint | [07_Lateral/LM-REMOTE-006_WebDAV.md](07_Lateral/LM-REMOTE-006_WebDAV.md) |
+| LM-REMOTE-007 | Azure VM to VM Lateral Movement | T1021 | N/A | Entra ID | [07_Lateral/LM-REMOTE-007_Azure_VM.md](07_Lateral/LM-REMOTE-007_Azure_VM.md) |
+| LM-REMOTE-008 | Azure VNET Peering Traversal | T1021 | N/A | Entra ID | [07_Lateral/LM-REMOTE-008_VNET_Peering.md](07_Lateral/LM-REMOTE-008_VNET_Peering.md) |
+| LM-REMOTE-009 | Private Link/Service Endpoint | T1021 | N/A | Entra ID | [07_Lateral/LM-REMOTE-009_PrivateLink.md](07_Lateral/LM-REMOTE-009_PrivateLink.md) |
+| LM-REMOTE-010 | Azure Virtual WAN Trust Exploitation | T1021 | N/A | Entra ID | [07_Lateral/LM-REMOTE-010_vWAN.md](07_Lateral/LM-REMOTE-010_vWAN.md) |
+| LM-REMOTE-011 | Azure-to-On-Premises Movement | T1021 | N/A | Hybrid AD | [07_Lateral/LM-REMOTE-011_Azure2OnPrem.md](07_Lateral/LM-REMOTE-011_Azure2OnPrem.md) |
 
 ## Subcategory 7.2: Use Alternate Authentication Material (39 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| LM-AUTH-001 | Pass-the-Hash (PTH) | T1550.002 | N/A | Windows AD/Endpoint | `07_Lateral/LM-AUTH-001_PTH.md` |
-| LM-AUTH-002 | Pass-the-Ticket (PTT) | T1550.003 | N/A | Windows AD/Endpoint | `07_Lateral/LM-AUTH-002_PTT.md` |
-| LM-AUTH-003 | Pass-the-Certificate | T1550.004 | N/A | Hybrid AD/Entra ID | `07_Lateral/LM-AUTH-003_PTC.md` |
-| LM-AUTH-004 | Pass-the-PRT (Primary Refresh Token) | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-004_PRT.md` |
-| LM-AUTH-005 | Service Principal Key/Certificate | T1550.001 | N/A | Entra ID | `07_Lateral/LM-AUTH-005_SP_Key.md` |
-| LM-AUTH-006 | Microsoft Teams Authentication Bypass | T1550 | N/A | M365 | `07_Lateral/LM-AUTH-006_Teams_Auth.md` |
-| LM-AUTH-007 | SharePoint Authentication Bypass | T1550 | N/A | M365 | `07_Lateral/LM-AUTH-007_SharePoint_Auth.md` |
-| LM-AUTH-008 | Legacy Authentication Protocol Abuse | T1550 | N/A | M365/Entra ID | `07_Lateral/LM-AUTH-008_Legacy_Auth.md` |
-| LM-AUTH-009 | Azure B2B Collaboration Abuse | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-009_B2B.md` |
-| LM-AUTH-010 | Seamless SSO Abuse | T1550 | N/A | Hybrid AD | `07_Lateral/LM-AUTH-010_Seamless_SSO.md` |
-| LM-AUTH-011 | Overpass-the-Hash (Pass-the-Key) | T1550.002 | N/A | Windows AD | `07_Lateral/LM-AUTH-011_Overpass.md` |
-| LM-AUTH-012 | Cross-Tenant Access via Azure B2B | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-012_B2B_CT.md` |
-| LM-AUTH-013 | Exchange Online EWS Impersonation | T1550 | N/A | M365 | `07_Lateral/LM-AUTH-013_EWS.md` |
-| LM-AUTH-014 | Microsoft Teams to SharePoint | T1550 | N/A | M365 | `07_Lateral/LM-AUTH-014_Teams_SP.md` |
-| LM-AUTH-015 | SharePoint Site Collection Movement | T1550 | N/A | M365 | `07_Lateral/LM-AUTH-015_SP_Collection.md` |
-| LM-AUTH-016 | Managed Identity Cross-Resource | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-016_ManagedID_Cross.md` |
-| LM-AUTH-017 | Power Platform Dataflows | T1550 | N/A | M365 | `07_Lateral/LM-AUTH-017_Power_Dataflows.md` |
-| LM-AUTH-018 | Teams App Manifest | T1550 | N/A | M365 | `07_Lateral/LM-AUTH-018_Teams_Manifest.md` |
-| LM-AUTH-019 | Azure AD Connect Server to AD | T1550 | CVE-2023-32315 | Hybrid AD | `07_Lateral/LM-AUTH-019_AADConnect.md` |
-| LM-AUTH-020 | Microsoft Defender Portal | T1550 | N/A | M365 | `07_Lateral/LM-AUTH-020_Defender_Portal.md` |
-| LM-AUTH-021 | Azure Lighthouse Cross-Tenant | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-021_Lighthouse_CT.md` |
-| LM-AUTH-022 | Azure Site Recovery | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-022_Site_Recovery.md` |
-| LM-AUTH-023 | On-Premises-to-Azure Movement | T1550 | N/A | Hybrid AD | `07_Lateral/LM-AUTH-023_OnPrem_Azure.md` |
-| LM-AUTH-024 | Workload Identity Federation Abuse | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-024_Workload_ID_Fed.md` |
-| LM-AUTH-025 | Azure Cross-Tenant OAuth Abuse | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-025_OAuth_CT.md` |
-| LM-AUTH-026 | Authentication Assertion Replay | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-026_Assertion_Replay.md` |
-| LM-AUTH-027 | Cross-Cloud Resource Access | T1550 | N/A | Cross-Cloud | `07_Lateral/LM-AUTH-027_Cloud_Resource.md` |
-| LM-AUTH-028 | Azure External Identities Abuse | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-028_Ext_Identities.md` |
-| LM-AUTH-029 | OAuth Application Permissions | T1550 | N/A | Entra ID/M365 | `07_Lateral/LM-AUTH-029_OAuth_App.md` |
-| LM-AUTH-030 | AKS Service Account Token Theft | T1528 | N/A | Entra ID | `07_Lateral/LM-AUTH-030_AKS_Token.md` |
-| LM-AUTH-031 | Container Registry Cross-Registry | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-031_Registry_Cross.md` |
-| LM-AUTH-032 | Function App Identity Hopping | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-032_Function_Hop.md` |
-| LM-AUTH-033 | Logic App Authentication Chain | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-033_Logic_Chain.md` |
-| LM-AUTH-034 | Data Factory Credential Reuse | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-034_DataFactory.md` |
-| LM-AUTH-035 | Synapse Workspace Cross-Access | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-035_Synapse.md` |
-| LM-AUTH-036 | CosmosDB Connection String Reuse | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-036_CosmosDB.md` |
-| LM-AUTH-037 | Event Hub Shared Access Key | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-037_EventHub.md` |
-| LM-AUTH-038 | Service Bus Shared Access Key | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-038_ServiceBus.md` |
-| LM-AUTH-039 | Storage Account Connection String | T1550 | N/A | Entra ID | `07_Lateral/LM-AUTH-039_Storage_ConnStr.md` |
+| LM-AUTH-001 | Pass-the-Hash (PTH) | T1550.002 | N/A | Windows AD/Endpoint | [07_Lateral/LM-AUTH-001_PTH.md](07_Lateral/LM-AUTH-001_PTH.md) |
+| LM-AUTH-002 | Pass-the-Ticket (PTT) | T1550.003 | N/A | Windows AD/Endpoint | [07_Lateral/LM-AUTH-002_PTT.md](07_Lateral/LM-AUTH-002_PTT.md) |
+| LM-AUTH-003 | Pass-the-Certificate | T1550.004 | N/A | Hybrid AD/Entra ID | [07_Lateral/LM-AUTH-003_PTC.md](07_Lateral/LM-AUTH-003_PTC.md) |
+| LM-AUTH-004 | Pass-the-PRT (Primary Refresh Token) | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-004_PRT.md](07_Lateral/LM-AUTH-004_PRT.md) |
+| LM-AUTH-005 | Service Principal Key/Certificate | T1550.001 | N/A | Entra ID | [07_Lateral/LM-AUTH-005_SP_Key.md](07_Lateral/LM-AUTH-005_SP_Key.md) |
+| LM-AUTH-006 | Microsoft Teams Authentication Bypass | T1550 | N/A | M365 | [07_Lateral/LM-AUTH-006_Teams_Auth.md](07_Lateral/LM-AUTH-006_Teams_Auth.md) |
+| LM-AUTH-007 | SharePoint Authentication Bypass | T1550 | N/A | M365 | [07_Lateral/LM-AUTH-007_SharePoint_Auth.md](07_Lateral/LM-AUTH-007_SharePoint_Auth.md) |
+| LM-AUTH-008 | Legacy Authentication Protocol Abuse | T1550 | N/A | M365/Entra ID | [07_Lateral/LM-AUTH-008_Legacy_Auth.md](07_Lateral/LM-AUTH-008_Legacy_Auth.md) |
+| LM-AUTH-009 | Azure B2B Collaboration Abuse | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-009_B2B.md](07_Lateral/LM-AUTH-009_B2B.md) |
+| LM-AUTH-010 | Seamless SSO Abuse | T1550 | N/A | Hybrid AD | [07_Lateral/LM-AUTH-010_Seamless_SSO.md](07_Lateral/LM-AUTH-010_Seamless_SSO.md) |
+| LM-AUTH-011 | Overpass-the-Hash (Pass-the-Key) | T1550.002 | N/A | Windows AD | [07_Lateral/LM-AUTH-011_Overpass.md](07_Lateral/LM-AUTH-011_Overpass.md) |
+| LM-AUTH-012 | Cross-Tenant Access via Azure B2B | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-012_B2B_CT.md](07_Lateral/LM-AUTH-012_B2B_CT.md) |
+| LM-AUTH-013 | Exchange Online EWS Impersonation | T1550 | N/A | M365 | [07_Lateral/LM-AUTH-013_EWS.md](07_Lateral/LM-AUTH-013_EWS.md) |
+| LM-AUTH-014 | Microsoft Teams to SharePoint | T1550 | N/A | M365 | [07_Lateral/LM-AUTH-014_Teams_SP.md](07_Lateral/LM-AUTH-014_Teams_SP.md) |
+| LM-AUTH-015 | SharePoint Site Collection Movement | T1550 | N/A | M365 | [07_Lateral/LM-AUTH-015_SP_Collection.md](07_Lateral/LM-AUTH-015_SP_Collection.md) |
+| LM-AUTH-016 | Managed Identity Cross-Resource | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-016_ManagedID_Cross.md](07_Lateral/LM-AUTH-016_ManagedID_Cross.md) |
+| LM-AUTH-017 | Power Platform Dataflows | T1550 | N/A | M365 | [07_Lateral/LM-AUTH-017_Power_Dataflows.md](07_Lateral/LM-AUTH-017_Power_Dataflows.md) |
+| LM-AUTH-018 | Teams App Manifest | T1550 | N/A | M365 | [07_Lateral/LM-AUTH-018_Teams_Manifest.md](07_Lateral/LM-AUTH-018_Teams_Manifest.md) |
+| LM-AUTH-019 | Azure AD Connect Server to AD | T1550 | CVE-2023-32315 | Hybrid AD | [07_Lateral/LM-AUTH-019_AADConnect.md](07_Lateral/LM-AUTH-019_AADConnect.md) |
+| LM-AUTH-020 | Microsoft Defender Portal | T1550 | N/A | M365 | [07_Lateral/LM-AUTH-020_Defender_Portal.md](07_Lateral/LM-AUTH-020_Defender_Portal.md) |
+| LM-AUTH-021 | Azure Lighthouse Cross-Tenant | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-021_Lighthouse_CT.md](07_Lateral/LM-AUTH-021_Lighthouse_CT.md) |
+| LM-AUTH-022 | Azure Site Recovery | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-022_Site_Recovery.md](07_Lateral/LM-AUTH-022_Site_Recovery.md) |
+| LM-AUTH-023 | On-Premises-to-Azure Movement | T1550 | N/A | Hybrid AD | [07_Lateral/LM-AUTH-023_OnPrem_Azure.md](07_Lateral/LM-AUTH-023_OnPrem_Azure.md) |
+| LM-AUTH-024 | Workload Identity Federation Abuse | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-024_Workload_ID_Fed.md](07_Lateral/LM-AUTH-024_Workload_ID_Fed.md) |
+| LM-AUTH-025 | Azure Cross-Tenant OAuth Abuse | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-025_OAuth_CT.md](07_Lateral/LM-AUTH-025_OAuth_CT.md) |
+| LM-AUTH-026 | Authentication Assertion Replay | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-026_Assertion_Replay.md](07_Lateral/LM-AUTH-026_Assertion_Replay.md) |
+| LM-AUTH-027 | Cross-Cloud Resource Access | T1550 | N/A | Cross-Cloud | [07_Lateral/LM-AUTH-027_Cloud_Resource.md](07_Lateral/LM-AUTH-027_Cloud_Resource.md) |
+| LM-AUTH-028 | Azure External Identities Abuse | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-028_Ext_Identities.md](07_Lateral/LM-AUTH-028_Ext_Identities.md) |
+| LM-AUTH-029 | OAuth Application Permissions | T1550 | N/A | Entra ID/M365 | [07_Lateral/LM-AUTH-029_OAuth_App.md](07_Lateral/LM-AUTH-029_OAuth_App.md) |
+| LM-AUTH-030 | AKS Service Account Token Theft | T1528 | N/A | Entra ID | [07_Lateral/LM-AUTH-030_AKS_Token.md](07_Lateral/LM-AUTH-030_AKS_Token.md) |
+| LM-AUTH-031 | Container Registry Cross-Registry | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-031_Registry_Cross.md](07_Lateral/LM-AUTH-031_Registry_Cross.md) |
+| LM-AUTH-032 | Function App Identity Hopping | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-032_Function_Hop.md](07_Lateral/LM-AUTH-032_Function_Hop.md) |
+| LM-AUTH-033 | Logic App Authentication Chain | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-033_Logic_Chain.md](07_Lateral/LM-AUTH-033_Logic_Chain.md) |
+| LM-AUTH-034 | Data Factory Credential Reuse | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-034_DataFactory.md](07_Lateral/LM-AUTH-034_DataFactory.md) |
+| LM-AUTH-035 | Synapse Workspace Cross-Access | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-035_Synapse.md](07_Lateral/LM-AUTH-035_Synapse.md) |
+| LM-AUTH-036 | CosmosDB Connection String Reuse | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-036_CosmosDB.md](07_Lateral/LM-AUTH-036_CosmosDB.md) |
+| LM-AUTH-037 | Event Hub Shared Access Key | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-037_EventHub.md](07_Lateral/LM-AUTH-037_EventHub.md) |
+| LM-AUTH-038 | Service Bus Shared Access Key | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-038_ServiceBus.md](07_Lateral/LM-AUTH-038_ServiceBus.md) |
+| LM-AUTH-039 | Storage Account Connection String | T1550 | N/A | Entra ID | [07_Lateral/LM-AUTH-039_Storage_ConnStr.md](07_Lateral/LM-AUTH-039_Storage_ConnStr.md) |
 
 ---
 
@@ -520,37 +520,37 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| COLLECT-EMAIL-001 | Email Collection via EWS | T1114 | N/A | M365 | `08_Collection/COLLECT-EMAIL-001_EWS.md` |
-| COLLECT-EMAIL-002 | Outlook Mailbox Export | T1114.001 | N/A | M365 | `08_Collection/COLLECT-EMAIL-002_Outlook_Export.md` |
-| COLLECT-EMAIL-003 | Mail Search via PowerShell | T1114 | N/A | M365 | `08_Collection/COLLECT-EMAIL-003_Mail_Search.md` |
-| COLLECT-ARCHIVE-001 | Archive Mailbox Data Extraction | T1123 | N/A | M365 | `08_Collection/COLLECT-ARCHIVE-001_Archive.md` |
-| COLLECT-SCREEN-001 | SharePoint Document Collection | T1123 | N/A | M365 | `08_Collection/COLLECT-SCREEN-001_SharePoint_Docs.md` |
-| COLLECT-CHAT-001 | Teams Chat Extraction | T1123 | N/A | M365 | `08_Collection/COLLECT-CHAT-001_Teams_Chat.md` |
-| COLLECT-CALL-001 | Teams Call Recording Extraction | T1123 | N/A | M365 | `08_Collection/COLLECT-CALL-001_Teams_Recording.md` |
-| COLLECT-CHAT-002 | OneDrive Data Collection | T1123 | N/A | M365 | `08_Collection/COLLECT-CHAT-002_OneDrive.md` |
-| COLLECT-DATA-001 | Azure Blob Storage Data Exfiltration | T1537 | N/A | Entra ID | `08_Collection/COLLECT-DATA-001_Blob_Storage.md` |
-| COLLECT-DATA-002 | Azure SQL Database Dump | T1537 | N/A | Entra ID | `08_Collection/COLLECT-DATA-002_SQL_Dump.md` |
-| COLLECT-DATA-003 | Azure Cosmos DB Data Extraction | T1537 | N/A | Entra ID | `08_Collection/COLLECT-DATA-003_CosmosDB.md` |
-| COLLECT-DATA-004 | Synapse Analytics Data Access | T1537 | N/A | Entra ID | `08_Collection/COLLECT-DATA-004_Synapse.md` |
-| COLLECT-CRED-001 | Credential Collection from Registry | T1555 | N/A | Windows Endpoint | `08_Collection/COLLECT-CRED-001_Registry_Creds.md` |
-| COLLECT-CRED-002 | Browser Cookie Collection | T1185 | N/A | Windows Endpoint/M365 | `08_Collection/COLLECT-CRED-002_Browser_Cookies.md` |
-| COLLECT-CRED-003 | DPAPI Credential Extraction | T1555.003 | N/A | Windows Endpoint | `08_Collection/COLLECT-CRED-003_DPAPI_Creds.md` |
-| COLLECT-DISK-001 | Disk Content Collection | T1123 | N/A | Windows Endpoint | `08_Collection/COLLECT-DISK-001_Disk_Content.md` |
-| COLLECT-NETWORK-001 | Network Traffic Interception | T1040 | N/A | Multi-Env | `08_Collection/COLLECT-NETWORK-001_Traffic.md` |
-| COLLECT-LOGS-001 | Azure Activity Logs Collection | T1552.001 | N/A | Entra ID | `08_Collection/COLLECT-LOGS-001_Activity_Logs.md` |
-| COLLECT-LOGS-002 | Azure Diagnostic Logs Exfiltration | T1552.001 | N/A | Entra ID | `08_Collection/COLLECT-LOGS-002_Diagnostic_Logs.md` |
-| COLLECT-CONFIG-001 | Azure Resource Configuration Export | T1552.001 | N/A | Entra ID | `08_Collection/COLLECT-CONFIG-001_Config_Export.md` |
-| COLLECT-METADATA-001 | SharePoint Metadata Collection | T1123 | N/A | M365 | `08_Collection/COLLECT-METADATA-001_Metadata.md` |
-| COLLECT-FORM-001 | Form Responses & Survey Data | T1123 | N/A | M365 | `08_Collection/COLLECT-FORM-001_Forms.md` |
-| COLLECT-LIST-001 | SharePoint List Data Collection | T1123 | N/A | M365 | `08_Collection/COLLECT-LIST-001_Lists.md` |
-| COLLECT-PLAN-001 | Microsoft Planner Task Collection | T1123 | N/A | M365 | `08_Collection/COLLECT-PLAN-001_Planner.md` |
-| COLLECT-PROJECT-001 | Project Data Collection | T1123 | N/A | M365 | `08_Collection/COLLECT-PROJECT-001_Project.md` |
-| COLLECT-GRAPH-001 | Microsoft Graph API Data Extraction | T1087.004 | N/A | M365/Entra ID | `08_Collection/COLLECT-GRAPH-001_Graph_API.md` |
-| COLLECT-POLICY-001 | Device Compliance Policy Collection | T1123 | N/A | Entra ID | `08_Collection/COLLECT-POLICY-001_Compliance_Policy.md` |
-| COLLECT-INTUNE-001 | Intune Configuration Export | T1123 | N/A | Entra ID | `08_Collection/COLLECT-INTUNE-001_Intune_Config.md` |
-| COLLECT-DEFENDER-001 | Defender for Endpoint Data Collection | T1123 | N/A | M365 | `08_Collection/COLLECT-DEFENDER-001_MDE_Data.md` |
-| COLLECT-SENTINEL-001 | Sentinel Alert Data Collection | T1123 | N/A | Entra ID | `08_Collection/COLLECT-SENTINEL-001_Sentinel_Data.md` |
-| COLLECT-AUDIT-001 | Audit Log Comprehensive Collection | T1552.001 | N/A | Multi-Env | `08_Collection/COLLECT-AUDIT-001_Audit.md` |
+| COLLECT-EMAIL-001 | Email Collection via EWS | T1114 | N/A | M365 | [08_Collection/COLLECT-EMAIL-001_EWS.md](08_Collection/COLLECT-EMAIL-001_EWS.md) |
+| COLLECT-EMAIL-002 | Outlook Mailbox Export | T1114.001 | N/A | M365 | [08_Collection/COLLECT-EMAIL-002_Outlook_Export.md](08_Collection/COLLECT-EMAIL-002_Outlook_Export.md) |
+| COLLECT-EMAIL-003 | Mail Search via PowerShell | T1114 | N/A | M365 | [08_Collection/COLLECT-EMAIL-003_Mail_Search.md](08_Collection/COLLECT-EMAIL-003_Mail_Search.md) |
+| COLLECT-ARCHIVE-001 | Archive Mailbox Data Extraction | T1123 | N/A | M365 | [08_Collection/COLLECT-ARCHIVE-001_Archive.md](08_Collection/COLLECT-ARCHIVE-001_Archive.md) |
+| COLLECT-SCREEN-001 | SharePoint Document Collection | T1123 | N/A | M365 | [08_Collection/COLLECT-SCREEN-001_SharePoint_Docs.md](08_Collection/COLLECT-SCREEN-001_SharePoint_Docs.md) |
+| COLLECT-CHAT-001 | Teams Chat Extraction | T1123 | N/A | M365 | [08_Collection/COLLECT-CHAT-001_Teams_Chat.md](08_Collection/COLLECT-CHAT-001_Teams_Chat.md) |
+| COLLECT-CALL-001 | Teams Call Recording Extraction | T1123 | N/A | M365 | [08_Collection/COLLECT-CALL-001_Teams_Recording.md](08_Collection/COLLECT-CALL-001_Teams_Recording.md) |
+| COLLECT-CHAT-002 | OneDrive Data Collection | T1123 | N/A | M365 | [08_Collection/COLLECT-CHAT-002_OneDrive.md](08_Collection/COLLECT-CHAT-002_OneDrive.md) |
+| COLLECT-DATA-001 | Azure Blob Storage Data Exfiltration | T1537 | N/A | Entra ID | [08_Collection/COLLECT-DATA-001_Blob_Storage.md](08_Collection/COLLECT-DATA-001_Blob_Storage.md) |
+| COLLECT-DATA-002 | Azure SQL Database Dump | T1537 | N/A | Entra ID | [08_Collection/COLLECT-DATA-002_SQL_Dump.md](08_Collection/COLLECT-DATA-002_SQL_Dump.md) |
+| COLLECT-DATA-003 | Azure Cosmos DB Data Extraction | T1537 | N/A | Entra ID | [08_Collection/COLLECT-DATA-003_CosmosDB.md](08_Collection/COLLECT-DATA-003_CosmosDB.md) |
+| COLLECT-DATA-004 | Synapse Analytics Data Access | T1537 | N/A | Entra ID | [08_Collection/COLLECT-DATA-004_Synapse.md](08_Collection/COLLECT-DATA-004_Synapse.md) |
+| COLLECT-CRED-001 | Credential Collection from Registry | T1555 | N/A | Windows Endpoint | [08_Collection/COLLECT-CRED-001_Registry_Creds.md](08_Collection/COLLECT-CRED-001_Registry_Creds.md) |
+| COLLECT-CRED-002 | Browser Cookie Collection | T1185 | N/A | Windows Endpoint/M365 | [08_Collection/COLLECT-CRED-002_Browser_Cookies.md](08_Collection/COLLECT-CRED-002_Browser_Cookies.md) |
+| COLLECT-CRED-003 | DPAPI Credential Extraction | T1555.003 | N/A | Windows Endpoint | [08_Collection/COLLECT-CRED-003_DPAPI_Creds.md](08_Collection/COLLECT-CRED-003_DPAPI_Creds.md) |
+| COLLECT-DISK-001 | Disk Content Collection | T1123 | N/A | Windows Endpoint | [08_Collection/COLLECT-DISK-001_Disk_Content.md](08_Collection/COLLECT-DISK-001_Disk_Content.md) |
+| COLLECT-NETWORK-001 | Network Traffic Interception | T1040 | N/A | Multi-Env | [08_Collection/COLLECT-NETWORK-001_Traffic.md](08_Collection/COLLECT-NETWORK-001_Traffic.md) |
+| COLLECT-LOGS-001 | Azure Activity Logs Collection | T1552.001 | N/A | Entra ID | [08_Collection/COLLECT-LOGS-001_Activity_Logs.md](08_Collection/COLLECT-LOGS-001_Activity_Logs.md) |
+| COLLECT-LOGS-002 | Azure Diagnostic Logs Exfiltration | T1552.001 | N/A | Entra ID | [08_Collection/COLLECT-LOGS-002_Diagnostic_Logs.md](08_Collection/COLLECT-LOGS-002_Diagnostic_Logs.md) |
+| COLLECT-CONFIG-001 | Azure Resource Configuration Export | T1552.001 | N/A | Entra ID | [08_Collection/COLLECT-CONFIG-001_Config_Export.md](08_Collection/COLLECT-CONFIG-001_Config_Export.md) |
+| COLLECT-METADATA-001 | SharePoint Metadata Collection | T1123 | N/A | M365 | [08_Collection/COLLECT-METADATA-001_Metadata.md](08_Collection/COLLECT-METADATA-001_Metadata.md) |
+| COLLECT-FORM-001 | Form Responses & Survey Data | T1123 | N/A | M365 | [08_Collection/COLLECT-FORM-001_Forms.md](08_Collection/COLLECT-FORM-001_Forms.md) |
+| COLLECT-LIST-001 | SharePoint List Data Collection | T1123 | N/A | M365 | [08_Collection/COLLECT-LIST-001_Lists.md](08_Collection/COLLECT-LIST-001_Lists.md) |
+| COLLECT-PLAN-001 | Microsoft Planner Task Collection | T1123 | N/A | M365 | [08_Collection/COLLECT-PLAN-001_Planner.md](08_Collection/COLLECT-PLAN-001_Planner.md) |
+| COLLECT-PROJECT-001 | Project Data Collection | T1123 | N/A | M365 | [08_Collection/COLLECT-PROJECT-001_Project.md](08_Collection/COLLECT-PROJECT-001_Project.md) |
+| COLLECT-GRAPH-001 | Microsoft Graph API Data Extraction | T1087.004 | N/A | M365/Entra ID | [08_Collection/COLLECT-GRAPH-001_Graph_API.md](08_Collection/COLLECT-GRAPH-001_Graph_API.md) |
+| COLLECT-POLICY-001 | Device Compliance Policy Collection | T1123 | N/A | Entra ID | [08_Collection/COLLECT-POLICY-001_Compliance_Policy.md](08_Collection/COLLECT-POLICY-001_Compliance_Policy.md) |
+| COLLECT-INTUNE-001 | Intune Configuration Export | T1123 | N/A | Entra ID | [08_Collection/COLLECT-INTUNE-001_Intune_Config.md](08_Collection/COLLECT-INTUNE-001_Intune_Config.md) |
+| COLLECT-DEFENDER-001 | Defender for Endpoint Data Collection | T1123 | N/A | M365 | [08_Collection/COLLECT-DEFENDER-001_MDE_Data.md](08_Collection/COLLECT-DEFENDER-001_MDE_Data.md) |
+| COLLECT-SENTINEL-001 | Sentinel Alert Data Collection | T1123 | N/A | Entra ID | [08_Collection/COLLECT-SENTINEL-001_Sentinel_Data.md](08_Collection/COLLECT-SENTINEL-001_Sentinel_Data.md) |
+| COLLECT-AUDIT-001 | Audit Log Comprehensive Collection | T1552.001 | N/A | Multi-Env | [08_Collection/COLLECT-AUDIT-001_Audit.md](08_Collection/COLLECT-AUDIT-001_Audit.md) |
 
 ---
 
