@@ -558,12 +558,12 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| IMPACT-RANSOM-001 | Ransomware Deployment Azure VMs | T1486 | N/A | Entra ID | `09_Impact/IMPACT-RANSOM-001_Ransomware_VM.md` |
-| IMPACT-DATA-DESTROY-001 | Data Destruction via Blob Storage | T1485 | N/A | Entra ID | `09_Impact/IMPACT-DATA-DESTROY-001_Blob_Destroy.md` |
-| IMPACT-SERVICE-STOP-001 | Service Shutdown/Deletion | T1531 | N/A | Multi-Env | `09_Impact/IMPACT-SERVICE-STOP-001_Service_Stop.md` |
-| IMPACT-DENIAL-001 | Denial of Service via Azure DDoS | T1498 | N/A | Entra ID | `09_Impact/IMPACT-DENIAL-001_DDoS.md` |
-| IMPACT-INTEGRITY-001 | Data Integrity Compromise | T1491 | N/A | Multi-Env | `09_Impact/IMPACT-INTEGRITY-001_Integrity.md` |
-| IMPACT-RESOURCE-EXHAUST-001 | Resource Exhaustion Attack | T1499 | N/A | Entra ID | `09_Impact/IMPACT-RESOURCE-EXHAUST-001_Resource_Exhaust.md` |
+| IMPACT-RANSOM-001 | Ransomware Deployment Azure VMs | T1486 | N/A | Entra ID | [09_Impact/IMPACT-RANSOM-001_Ransomware_VM.md](09_Impact/IMPACT-RANSOM-001_Ransomware_VM.md) |
+| IMPACT-DATA-DESTROY-001 | Data Destruction via Blob Storage | T1485 | N/A | Entra ID | [09_Impact/IMPACT-DATA-DESTROY-001_Blob_Destroy.md](09_Impact/IMPACT-DATA-DESTROY-001_Blob_Destroy.md) |
+| IMPACT-SERVICE-STOP-001 | Service Shutdown/Deletion | T1531 | N/A | Multi-Env | [09_Impact/IMPACT-SERVICE-STOP-001_Service_Stop.md](09_Impact/IMPACT-SERVICE-STOP-001_Service_Stop.md) |
+| IMPACT-DENIAL-001 | Denial of Service via Azure DDoS | T1498 | N/A | Entra ID | [09_Impact/IMPACT-DENIAL-001_DDoS.md](09_Impact/IMPACT-DENIAL-001_DDoS.md) |
+| IMPACT-INTEGRITY-001 | Data Integrity Compromise | T1491 | N/A | Multi-Env | [09_Impact/IMPACT-INTEGRITY-001_Integrity.md](09_Impact/IMPACT-INTEGRITY-001_Integrity.md) |
+| IMPACT-RESOURCE-EXHAUST-001 | Resource Exhaustion Attack | T1499 | N/A | Entra ID | [09_Impact/IMPACT-RESOURCE-EXHAUST-001_Resource_Exhaust.md](09_Impact/IMPACT-RESOURCE-EXHAUST-001_Resource_Exhaust.md) |
 
 ---
 
@@ -571,13 +571,13 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| CERT-ADCS-001 | ADCS Misconfiguration Abuse | T1649 | CVE-2021-27239 | Windows AD | `10_Cert/CERT-ADCS-001_ADCS_Misconfig.md` |
-| CERT-TEMPLATE-001 | Certificate Template Abuse | T1649 | CVE-2021-27239 | Windows AD | `10_Cert/CERT-TEMPLATE-001_Template_Abuse.md` |
-| CERT-ENROLLMENT-001 | Unauthorized Certificate Enrollment | T1649 | N/A | Windows AD | `10_Cert/CERT-ENROLLMENT-001_Enrollment.md` |
-| CERT-REVOCATION-001 | Certificate Revocation Bypass | T1649 | N/A | Windows AD | `10_Cert/CERT-REVOCATION-001_Revocation_Bypass.md` |
-| CERT-AZURE-001 | Azure Key Vault Certificate Theft | T1649 | CVE-2023-28432 | Entra ID | `10_Cert/CERT-AZURE-001_KeyVault_Cert.md` |
-| CERT-M365-001 | M365 Certificate Management Abuse | T1649 | N/A | M365 | `10_Cert/CERT-M365-001_M365_Cert.md` |
-| CERT-FEDERATION-001 | Federation Certificate Manipulation | T1649 | N/A | Hybrid AD | `10_Cert/CERT-FEDERATION-001_Fed_Cert.md` |
+| CERT-ADCS-001 | ADCS Misconfiguration Abuse | T1649 | CVE-2021-27239 | Windows AD | [10_Cert/CERT-ADCS-001_ADCS_Misconfig.md](10_Cert/CERT-ADCS-001_ADCS_Misconfig.md) |
+| CERT-TEMPLATE-001 | Certificate Template Abuse | T1649 | CVE-2021-27239 | Windows AD | [10_Cert/CERT-TEMPLATE-001_Template_Abuse.md](10_Cert/CERT-TEMPLATE-001_Template_Abuse.md) |
+| CERT-ENROLLMENT-001 | Unauthorized Certificate Enrollment | T1649 | N/A | Windows AD | [10_Cert/CERT-ENROLLMENT-001_Enrollment.md](10_Cert/CERT-ENROLLMENT-001_Enrollment.md) |
+| CERT-REVOCATION-001 | Certificate Revocation Bypass | T1649 | N/A | Windows AD | [10_Cert/CERT-REVOCATION-001_Revocation_Bypass.md](10_Cert/CERT-REVOCATION-001_Revocation_Bypass.md) |
+| CERT-AZURE-001 | Azure Key Vault Certificate Theft | T1649 | CVE-2023-28432 | Entra ID | [10_Cert/CERT-AZURE-001_KeyVault_Cert.md](10_Cert/CERT-AZURE-001_KeyVault_Cert.md) |
+| CERT-M365-001 | M365 Certificate Management Abuse | T1649 | N/A | M365 | [10_Cert/CERT-M365-001_M365_Cert.md](10_Cert/CERT-M365-001_M365_Cert.md) |
+| CERT-FEDERATION-001 | Federation Certificate Manipulation | T1649 | N/A | Hybrid AD | [10_Cert/CERT-FEDERATION-001_Fed_Cert.md](10_Cert/CERT-FEDERATION-001_Fed_Cert.md) |
 
 ---
 
@@ -585,16 +585,16 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| SUPPLY-CHAIN-001 | Pipeline Repository Compromise | T1195.001 | N/A | Entra ID/DevOps | `11_Supply/SUPPLY-001_Repo_Compromise.md` |
-| SUPPLY-CHAIN-002 | Build System Access Abuse | T1195.001 | N/A | Entra ID/DevOps | `11_Supply/SUPPLY-002_Build_Abuse.md` |
-| SUPPLY-CHAIN-003 | Artifact Repository Poisoning | T1195.001 | N/A | Entra ID/DevOps | `11_Supply/SUPPLY-003_Artifact_Poison.md` |
-| SUPPLY-CHAIN-004 | Package Manager Credential Theft | T1195.001 | N/A | Entra ID/DevOps | `11_Supply/SUPPLY-004_Package_Creds.md` |
-| SUPPLY-CHAIN-005 | Release Pipeline Variable Injection | T1195.001 | N/A | Entra ID/DevOps | `11_Supply/SUPPLY-005_Pipeline_Inject.md` |
-| SUPPLY-CHAIN-006 | Deployment Agent Compromise | T1195.001 | N/A | Entra ID/DevOps | `11_Supply/SUPPLY-006_Deployment_Agent.md` |
-| SUPPLY-CHAIN-007 | Container Image Registry Abuse | T1195.001 | N/A | Entra ID/DevOps | `11_Supply/SUPPLY-007_Container_Registry.md` |
-| SUPPLY-CHAIN-008 | Helm Chart Poisoning | T1195.001 | N/A | Entra ID/DevOps | `11_Supply/SUPPLY-008_Helm_Chart.md` |
-| SUPPLY-CHAIN-009 | Terraform State File Theft | T1195.001 | N/A | Entra ID/DevOps | `11_Supply/SUPPLY-009_Terraform_State.md` |
-| SUPPLY-CHAIN-010 | Infrastructure-as-Code Tampering | T1195.001 | N/A | Entra ID/DevOps | `11_Supply/SUPPLY-010_IaC_Tamper.md` |
+| SUPPLY-CHAIN-001 | Pipeline Repository Compromise | T1195.001 | N/A | Entra ID/DevOps | [11_Supply/SUPPLY-001_Repo_Compromise.md](11_Supply/SUPPLY-001_Repo_Compromise.md) |
+| SUPPLY-CHAIN-002 | Build System Access Abuse | T1195.001 | N/A | Entra ID/DevOps | [11_Supply/SUPPLY-002_Build_Abuse.md](11_Supply/SUPPLY-002_Build_Abuse.md) |
+| SUPPLY-CHAIN-003 | Artifact Repository Poisoning | T1195.001 | N/A | Entra ID/DevOps | [11_Supply/SUPPLY-003_Artifact_Poison.md](11_Supply/SUPPLY-003_Artifact_Poison.md) |
+| SUPPLY-CHAIN-004 | Package Manager Credential Theft | T1195.001 | N/A | Entra ID/DevOps | [11_Supply/SUPPLY-004_Package_Creds.md](11_Supply/SUPPLY-004_Package_Creds.md) |
+| SUPPLY-CHAIN-005 | Release Pipeline Variable Injection | T1195.001 | N/A | Entra ID/DevOps | [11_Supply/SUPPLY-005_Pipeline_Inject.md](11_Supply/SUPPLY-005_Pipeline_Inject.md) |
+| SUPPLY-CHAIN-006 | Deployment Agent Compromise | T1195.001 | N/A | Entra ID/DevOps | [11_Supply/SUPPLY-006_Deployment_Agent.md](11_Supply/SUPPLY-006_Deployment_Agent.md) |
+| SUPPLY-CHAIN-007 | Container Image Registry Abuse | T1195.001 | N/A | Entra ID/DevOps | [11_Supply/SUPPLY-007_Container_Registry.md](11_Supply/SUPPLY-007_Container_Registry.md) |
+| SUPPLY-CHAIN-008 | Helm Chart Poisoning | T1195.001 | N/A | Entra ID/DevOps | [11_Supply/SUPPLY-008_Helm_Chart.md](11_Supply/SUPPLY-008_Helm_Chart.md) |
+| SUPPLY-CHAIN-009 | Terraform State File Theft | T1195.001 | N/A | Entra ID/DevOps | [11_Supply/SUPPLY-009_Terraform_State.md](11_Supply/SUPPLY-009_Terraform_State.md) |
+| SUPPLY-CHAIN-010 | Infrastructure-as-Code Tampering | T1195.001 | N/A | Entra ID/DevOps | [11_Supply/SUPPLY-010_IaC_Tamper.md](11_Supply/SUPPLY-010_IaC_Tamper.md) |
 
 ---
 
@@ -602,8 +602,8 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| CONTAINER-001 | Kubernetes API Server Compromise | T1021.006 | CVE-2025-21196 | Entra ID | `12_Container/CONTAINER-001_K8s_API.md` |
-| CONTAINER-002 | Container Orchestration Secret Theft | T1555.002 | N/A | Entra ID | `12_Container/CONTAINER-002_Orch_Secret.md` |
+| CONTAINER-001 | Kubernetes API Server Compromise | T1021.006 | CVE-2025-21196 | Entra ID | [12_Container/CONTAINER-001_K8s_API.md](12_Container/CONTAINER-001_K8s_API.md) |
+| CONTAINER-002 | Container Orchestration Secret Theft | T1555.002 | N/A | Entra ID | [12_Container/CONTAINER-002_Orch_Secret.md](12_Container/CONTAINER-002_Orch_Secret.md) |
 
 ---
 
@@ -611,15 +611,15 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| SAAS-API-001 | GraphQL API Enumeration | T1590 | N/A | M365/Entra ID | `13_SaaS/SAAS-API-001_GraphQL_Enum.md` |
-| SAAS-API-002 | REST API Rate Limit Bypass | T1110.001 | N/A | M365/Entra ID | `13_SaaS/SAAS-API-002_RateLimit_Bypass.md` |
-| SAAS-API-003 | API Key Hardcoding Exploitation | T1552.001 | N/A | M365/Entra ID | `13_SaaS/SAAS-API-003_API_Key.md` |
-| SAAS-API-004 | OAuth 2.0 Authorization Code Interception | T1528 | N/A | M365/Entra ID | `13_SaaS/SAAS-API-004_OAuth_Intercept.md` |
-| SAAS-API-005 | JSON Web Token (JWT) Manipulation | T1550 | N/A | M365/Entra ID | `13_SaaS/SAAS-API-005_JWT_Manip.md` |
-| SAAS-API-006 | CORS Misconfiguration Abuse | T1057 | N/A | M365/Entra ID | `13_SaaS/SAAS-API-006_CORS.md` |
-| SAAS-API-007 | API Endpoint Parameter Pollution | T1110.002 | N/A | M365/Entra ID | `13_SaaS/SAAS-API-007_Param_Pollution.md` |
-| SAAS-API-008 | Webhook Hijacking | T1583.006 | N/A | M365/Entra ID | `13_SaaS/SAAS-API-008_Webhook.md` |
-| SAAS-API-009 | Third-Party App Permission Abuse | T1537 | N/A | M365/Entra ID | `13_SaaS/SAAS-API-009_3rdParty_App.md` |
+| SAAS-API-001 | GraphQL API Enumeration | T1590 | N/A | M365/Entra ID | [13_SaaS/SAAS-API-001_GraphQL_Enum.md](13_SaaS/SAAS-API-001_GraphQL_Enum.md) |
+| SAAS-API-002 | REST API Rate Limit Bypass | T1110.001 | N/A | M365/Entra ID | [13_SaaS/SAAS-API-002_RateLimit_Bypass.md](13_SaaS/SAAS-API-002_RateLimit_Bypass.md) |
+| SAAS-API-003 | API Key Hardcoding Exploitation | T1552.001 | N/A | M365/Entra ID | [13_SaaS/SAAS-API-003_API_Key.md](13_SaaS/SAAS-API-003_API_Key.md) |
+| SAAS-API-004 | OAuth 2.0 Authorization Code Interception | T1528 | N/A | M365/Entra ID | [13_SaaS/SAAS-API-004_OAuth_Intercept.md](13_SaaS/SAAS-API-004_OAuth_Intercept.md) |
+| SAAS-API-005 | JSON Web Token (JWT) Manipulation | T1550 | N/A | M365/Entra ID | [13_SaaS/SAAS-API-005_JWT_Manip.md](13_SaaS/SAAS-API-005_JWT_Manip.md) |
+| SAAS-API-006 | CORS Misconfiguration Abuse | T1057 | N/A | M365/Entra ID | [13_SaaS/SAAS-API-006_CORS.md](13_SaaS/SAAS-API-006_CORS.md) |
+| SAAS-API-007 | API Endpoint Parameter Pollution | T1110.002 | N/A | M365/Entra ID | [13_SaaS/SAAS-API-007_Param_Pollution.md](13_SaaS/SAAS-API-007_Param_Pollution.md) |
+| SAAS-API-008 | Webhook Hijacking | T1583.006 | N/A | M365/Entra ID | [13_SaaS/SAAS-API-008_Webhook.md](13_SaaS/SAAS-API-008_Webhook.md) |
+| SAAS-API-009 | Third-Party App Permission Abuse | T1537 | N/A | M365/Entra ID | [13_SaaS/SAAS-API-009_3rdParty_App.md](13_SaaS/SAAS-API-009_3rdParty_App.md) |
 
 ---
 
@@ -627,11 +627,11 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| IOT-EDGE-001 | IoT Device Credential Extraction | T1552.001 | N/A | Entra ID | `14_IoT/IOT-EDGE-001_IoT_Creds.md` |
-| IOT-EDGE-002 | Azure IoT Hub Connection String Theft | T1552.001 | N/A | Entra ID | `14_IoT/IOT-EDGE-002_IoT_Hub.md` |
-| IOT-EDGE-003 | Edge Module Compromise | T1543 | N/A | Entra ID | `14_IoT/IOT-EDGE-003_Edge_Module.md` |
-| IOT-EDGE-004 | Device Provisioning Service Abuse | T1098 | N/A | Entra ID | `14_IoT/IOT-EDGE-004_DPS_Abuse.md` |
-| IOT-EDGE-005 | Firmware Update Interception | T1601 | N/A | Entra ID | `14_IoT/IOT-EDGE-005_Firmware.md` |
+| IOT-EDGE-001 | IoT Device Credential Extraction | T1552.001 | N/A | Entra ID | [14_IoT/IOT-EDGE-001_IoT_Creds.md](14_IoT/IOT-EDGE-001_IoT_Creds.md) |
+| IOT-EDGE-002 | Azure IoT Hub Connection String Theft | T1552.001 | N/A | Entra ID | [14_IoT/IOT-EDGE-002_IoT_Hub.md](14_IoT/IOT-EDGE-002_IoT_Hub.md) |
+| IOT-EDGE-003 | Edge Module Compromise | T1543 | N/A | Entra ID | [14_IoT/IOT-EDGE-003_Edge_Module.md](14_IoT/IOT-EDGE-003_Edge_Module.md) |
+| IOT-EDGE-004 | Device Provisioning Service Abuse | T1098 | N/A | Entra ID | [14_IoT/IOT-EDGE-004_DPS_Abuse.md](14_IoT/IOT-EDGE-004_DPS_Abuse.md) |
+| IOT-EDGE-005 | Firmware Update Interception | T1601 | N/A | Entra ID | [14_IoT/IOT-EDGE-005_Firmware.md](14_IoT/IOT-EDGE-005_Firmware.md) |
 
 ---
 
@@ -639,10 +639,10 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| CROSS-CLOUD-001 | AWS Identity Federation Abuse | T1484.002 | N/A | Cross-Cloud | `15_CrossCloud/CROSS-CLOUD-001_AWS_Fed.md` |
-| CROSS-CLOUD-002 | Google Cloud Identity Sync Compromise | T1484.002 | N/A | Cross-Cloud | `15_CrossCloud/CROSS-CLOUD-002_GCP_Sync.md` |
-| CROSS-CLOUD-003 | Multi-Cloud Service Account Abuse | T1078.004 | N/A | Cross-Cloud | `15_CrossCloud/CROSS-CLOUD-003_MultiCloud_Acct.md` |
-| CROSS-CLOUD-004 | Cross-Cloud Trust Relationship Exploitation | T1484.002 | N/A | Cross-Cloud | `15_CrossCloud/CROSS-CLOUD-004_Trust_Exploit.md` |
+| CROSS-CLOUD-001 | AWS Identity Federation Abuse | T1484.002 | N/A | Cross-Cloud | [15_CrossCloud/CROSS-CLOUD-001_AWS_Fed.md](15_CrossCloud/CROSS-CLOUD-001_AWS_Fed.md) |
+| CROSS-CLOUD-002 | Google Cloud Identity Sync Compromise | T1484.002 | N/A | Cross-Cloud | [15_CrossCloud/CROSS-CLOUD-002_GCP_Sync.md](15_CrossCloud/CROSS-CLOUD-002_GCP_Sync.md) |
+| CROSS-CLOUD-003 | Multi-Cloud Service Account Abuse | T1078.004 | N/A | Cross-Cloud | [15_CrossCloud/CROSS-CLOUD-003_MultiCloud_Acct.md](15_CrossCloud/CROSS-CLOUD-003_MultiCloud_Acct.md) |
+| CROSS-CLOUD-004 | Cross-Cloud Trust Relationship Exploitation | T1484.002 | N/A | Cross-Cloud | [15_CrossCloud/CROSS-CLOUD-004_Trust_Exploit.md](15_CrossCloud/CROSS-CLOUD-004_Trust_Exploit.md) |
 
 ---
 
@@ -650,12 +650,12 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| EMERGING-IDENTITY-001 | SMART Identity Abuse | T1556 | N/A | Entra ID | `16_Emerging/EMERGING-IDENTITY-001_SMART.md` |
-| EMERGING-IDENTITY-002 | Decentralized Identity (DID) Exploitation | T1556 | N/A | Entra ID | `16_Emerging/EMERGING-IDENTITY-002_DID.md` |
-| EMERGING-IDENTITY-003 | WebAuthn Downgrade Attacks | T1556.006 | N/A | Entra ID | `16_Emerging/EMERGING-IDENTITY-003_WebAuthn.md` |
-| EMERGING-IDENTITY-004 | Passwordless Sign-in Bypass | T1556 | N/A | Entra ID | `16_Emerging/EMERGING-IDENTITY-004_Passwordless.md` |
-| EMERGING-IDENTITY-005 | Just-In-Time Admin Abuse | T1548 | N/A | Entra ID | `16_Emerging/EMERGING-IDENTITY-005_JIT_Admin.md` |
-| EMERGING-IDENTITY-006 | Zero-Knowledge Proof Forging | T1556 | N/A | Entra ID | `16_Emerging/EMERGING-IDENTITY-006_ZKP.md` |
+| EMERGING-IDENTITY-001 | SMART Identity Abuse | T1556 | N/A | Entra ID | [16_Emerging/EMERGING-IDENTITY-001_SMART.md](16_Emerging/EMERGING-IDENTITY-001_SMART.md) |
+| EMERGING-IDENTITY-002 | Decentralized Identity (DID) Exploitation | T1556 | N/A | Entra ID | [16_Emerging/EMERGING-IDENTITY-002_DID.md](16_Emerging/EMERGING-IDENTITY-002_DID.md) |
+| EMERGING-IDENTITY-003 | WebAuthn Downgrade Attacks | T1556.006 | N/A | Entra ID | [16_Emerging/EMERGING-IDENTITY-003_WebAuthn.md](16_Emerging/EMERGING-IDENTITY-003_WebAuthn.md) |
+| EMERGING-IDENTITY-004 | Passwordless Sign-in Bypass | T1556 | N/A | Entra ID | [16_Emerging/EMERGING-IDENTITY-004_Passwordless.md](16_Emerging/EMERGING-IDENTITY-004_Passwordless.md) |
+| EMERGING-IDENTITY-005 | Just-In-Time Admin Abuse | T1548 | N/A | Entra ID | [16_Emerging/EMERGING-IDENTITY-005_JIT_Admin.md](16_Emerging/EMERGING-IDENTITY-005_JIT_Admin.md) |
+| EMERGING-IDENTITY-006 | Zero-Knowledge Proof Forging | T1556 | N/A | Entra ID | [16_Emerging/EMERGING-IDENTITY-006_ZKP.md](16_Emerging/EMERGING-IDENTITY-006_ZKP.md) |
 
 ---
 
@@ -663,20 +663,20 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| CVE2025-001 | CLFS Driver Privilege Escalation | T1068 | CVE-2025-29824 | Windows Endpoint | `17_CVE2025/CVE2025-001_CLFS_PE.md` |
-| CVE2025-002 | AKS Container Escape RCE | T1611 | CVE-2025-21196 | Entra ID | `17_CVE2025/CVE2025-002_AKS_Escape.md` |
-| CVE2025-003 | AD DS Registry Key Elevation | T1068 | CVE-2025-21293 | Windows AD | `17_CVE2025/CVE2025-003_ADDS_Registry.md` |
-| CVE2025-004 | .library-ms NTLM Relay Attack | T1187 | CVE-2025-24054 | Windows AD | `17_CVE2025/CVE2025-004_Library_ms_NTLM.md` |
-| CVE2025-005 | Print Spooler Remote Code Execution | T1210 | CVE-2025-24050 | Windows Endpoint | `17_CVE2025/CVE2025-005_Print_RCE.md` |
-| CVE2025-006 | Kerberos Delegation Bypass | T1558 | CVE-2025-21299 | Windows AD | `17_CVE2025/CVE2025-006_Kerb_Delegation.md` |
-| CVE2025-007 | Entra ID Token Validation Bypass | T1556.006 | CVE-2025-55241 | Entra ID | `17_CVE2025/CVE2025-007_Token_Validation.md` |
-| CVE2025-008 | Exchange Server RCE Vulnerability | T1210 | CVE-2025-21064 | Windows AD | `17_CVE2025/CVE2025-008_Exchange_RCE.md` |
-| CVE2025-009 | SharePoint Authenticated RCE | T1210 | CVE-2025-21075 | M365 | `17_CVE2025/CVE2025-009_SharePoint_RCE.md` |
-| CVE2025-010 | Teams Deserialization Vulnerability | T1190 | CVE-2025-21089 | M365 | `17_CVE2025/CVE2025-010_Teams_Deser.md` |
-| CVE2025-011 | Azure App Service Authentication Bypass | T1556 | CVE-2025-24091 | Entra ID | `17_CVE2025/CVE2025-011_AppService_Auth.md` |
-| CVE2025-012 | SharePoint WebPart Deserialization RCE | T1210 | CVE-2025-49704 | M365 | `17_CVE2025/CVE2025-012_SharePoint_Deser.md` |
-| CVE2025-013 | M365 Copilot Zero-Click Prompt Injection | T1190 | CVE-2025-32711 | M365 | `17_CVE2025/CVE2025-013_Copilot_EchoLeak.md` |
-| CVE2025-014 | WSUS RCE & Lateral Movement | T1210 | CVE-2025-59287 | Windows | `17_CVE2025/CVE2025-014_WSUS_RCE.md` |
+| CVE2025-001 | CLFS Driver Privilege Escalation | T1068 | CVE-2025-29824 | Windows Endpoint | [17_CVE2025/CVE2025-001_CLFS_PE.md](17_CVE2025/CVE2025-001_CLFS_PE.md) |
+| CVE2025-002 | AKS Container Escape RCE | T1611 | CVE-2025-21196 | Entra ID | [17_CVE2025/CVE2025-002_AKS_Escape.md](17_CVE2025/CVE2025-002_AKS_Escape.md) |
+| CVE2025-003 | AD DS Registry Key Elevation | T1068 | CVE-2025-21293 | Windows AD | [17_CVE2025/CVE2025-003_ADDS_Registry.md](17_CVE2025/CVE2025-003_ADDS_Registry.md) |
+| CVE2025-004 | .library-ms NTLM Relay Attack | T1187 | CVE-2025-24054 | Windows AD | [17_CVE2025/CVE2025-004_Library_ms_NTLM.md](17_CVE2025/CVE2025-004_Library_ms_NTLM.md) |
+| CVE2025-005 | Print Spooler Remote Code Execution | T1210 | CVE-2025-24050 | Windows Endpoint | [17_CVE2025/CVE2025-005_Print_RCE.md](17_CVE2025/CVE2025-005_Print_RCE.md) |
+| CVE2025-006 | Kerberos Delegation Bypass | T1558 | CVE-2025-21299 | Windows AD | [17_CVE2025/CVE2025-006_Kerb_Delegation.md](17_CVE2025/CVE2025-006_Kerb_Delegation.md) |
+| CVE2025-007 | Entra ID Token Validation Bypass | T1556.006 | CVE-2025-55241 | Entra ID | [17_CVE2025/CVE2025-007_Token_Validation.md](17_CVE2025/CVE2025-007_Token_Validation.md) |
+| CVE2025-008 | Exchange Server RCE Vulnerability | T1210 | CVE-2025-21064 | Windows AD | [17_CVE2025/CVE2025-008_Exchange_RCE.md](17_CVE2025/CVE2025-008_Exchange_RCE.md) |
+| CVE2025-009 | SharePoint Authenticated RCE | T1210 | CVE-2025-21075 | M365 | [17_CVE2025/CVE2025-009_SharePoint_RCE.md](17_CVE2025/CVE2025-009_SharePoint_RCE.md) |
+| CVE2025-010 | Teams Deserialization Vulnerability | T1190 | CVE-2025-21089 | M365 | [17_CVE2025/CVE2025-010_Teams_Deser.md](17_CVE2025/CVE2025-010_Teams_Deser.md) |
+| CVE2025-011 | Azure App Service Authentication Bypass | T1556 | CVE-2025-24091 | Entra ID | [17_CVE2025/CVE2025-011_AppService_Auth.md](17_CVE2025/CVE2025-011_AppService_Auth.md) |
+| CVE2025-012 | SharePoint WebPart Deserialization RCE | T1210 | CVE-2025-49704 | M365 | [17_CVE2025/CVE2025-012_SharePoint_Deser.md](17_CVE2025/CVE2025-012_SharePoint_Deser.md) |
+| CVE2025-013 | M365 Copilot Zero-Click Prompt Injection | T1190 | CVE-2025-32711 | M365 | [17_CVE2025/CVE2025-013_Copilot_EchoLeak.md](17_CVE2025/CVE2025-013_Copilot_EchoLeak.md) |
+| CVE2025-014 | WSUS RCE & Lateral Movement | T1210 | CVE-2025-59287 | Windows | [17_CVE2025/CVE2025-014_WSUS_RCE.md](17_CVE2025/CVE2025-014_WSUS_RCE.md) |
 
 ---
 
@@ -684,9 +684,9 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| AI-PROMPT-001 | M365 Copilot Prompt Injection & Jailbreak | T1190 | CVE-2025-32711 | M365 | `18_AI_LLM/AI-PROMPT-001_Copilot_Injection.md` |
-| AI-PROMPT-002 | LLM Model Poisoning via Training Data | T1556 | N/A | Cloud | `18_AI_LLM/AI-PROMPT-002_LLM_Poisoning.md` |
-| AI-PROMPT-003 | Sensitive Data Leakage via LLM Queries | T1537 | N/A | Cloud | `18_AI_LLM/AI-PROMPT-003_Data_Leakage.md` |
+| AI-PROMPT-001 | M365 Copilot Prompt Injection & Jailbreak | T1190 | CVE-2025-32711 | M365 | [18_AI_LLM/AI-PROMPT-001_Copilot_Injection.md](18_AI_LLM/AI-PROMPT-001_Copilot_Injection.md) |
+| AI-PROMPT-002 | LLM Model Poisoning via Training Data | T1556 | N/A | Cloud | [18_AI_LLM/AI-PROMPT-002_LLM_Poisoning.md](18_AI_LLM/AI-PROMPT-002_LLM_Poisoning.md) |
+| AI-PROMPT-003 | Sensitive Data Leakage via LLM Queries | T1537 | N/A | Cloud | [18_AI_LLM/AI-PROMPT-003_Data_Leakage.md](18_AI_LLM/AI-PROMPT-003_Data_Leakage.md) |
 
 ---
 
@@ -694,9 +694,9 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| K8S-SUPPLY-001 | Helm Chart Repository Poisoning | T1195.001 | N/A | Kubernetes | `19_K8S_Supply/K8S-SUPPLY-001_Helm_Poison.md` |
-| K8S-SUPPLY-002 | Container Image Registry Tampering | T1195.001 | N/A | Kubernetes | `19_K8S_Supply/K8S-SUPPLY-002_Image_Tamper.md` |
-| K8S-SUPPLY-003 | Kubernetes Package Manager (KAPP) Abuse | T1195.001 | N/A | Kubernetes | `19_K8S_Supply/K8S-SUPPLY-003_KAPP_Abuse.md` |
+| K8S-SUPPLY-001 | Helm Chart Repository Poisoning | T1195.001 | N/A | Kubernetes | [19_K8S_Supply/K8S-SUPPLY-001_Helm_Poison.md](19_K8S_Supply/K8S-SUPPLY-001_Helm_Poison.md) |
+| K8S-SUPPLY-002 | Container Image Registry Tampering | T1195.001 | N/A | Kubernetes | [19_K8S_Supply/K8S-SUPPLY-002_Image_Tamper.md](19_K8S_Supply/K8S-SUPPLY-002_Image_Tamper.md) |
+| K8S-SUPPLY-003 | Kubernetes Package Manager (KAPP) Abuse | T1195.001 | N/A | Kubernetes | [19_K8S_Supply/K8S-SUPPLY-003_KAPP_Abuse.md](19_K8S_Supply/K8S-SUPPLY-003_KAPP_Abuse.md) |
 
 ---
 
@@ -704,10 +704,10 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| WHFB-001 | Windows Hello for Business Credential Theft | T1556.006 | N/A | Hybrid AD | `20_WHFB/WHFB-001_WHfB_Theft.md` |
-| WHFB-002 | Autopilot Device Identity Spoofing | T1078.004 | N/A | Entra ID | `20_WHFB/WHFB-002_Autopilot_Spoof.md` |
-| WHFB-003 | PIN Recovery Exploitation | T1556.006 | N/A | Hybrid AD | `20_WHFB/WHFB-003_PIN_Recovery.md` |
-| WHFB-004 | Biometric Bypass & Fallback Exploitation | T1556.006 | N/A | Hybrid AD | `20_WHFB/WHFB-004_Biometric_Bypass.md` |
+| WHFB-001 | Windows Hello for Business Credential Theft | T1556.006 | N/A | Hybrid AD | [20_WHFB/WHFB-001_WHfB_Theft.md](20_WHFB/WHFB-001_WHfB_Theft.md) |
+| WHFB-002 | Autopilot Device Identity Spoofing | T1078.004 | N/A | Entra ID | [20_WHFB/WHFB-002_Autopilot_Spoof.md](20_WHFB/WHFB-002_Autopilot_Spoof.md) |
+| WHFB-003 | PIN Recovery Exploitation | T1556.006 | N/A | Hybrid AD | [20_WHFB/WHFB-003_PIN_Recovery.md](20_WHFB/WHFB-003_PIN_Recovery.md) |
+| WHFB-004 | Biometric Bypass & Fallback Exploitation | T1556.006 | N/A | Hybrid AD | [20_WHFB/WHFB-004_Biometric_Bypass.md](20_WHFB/WHFB-004_Biometric_Bypass.md) |
 
 ---
 
@@ -715,26 +715,26 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| MISCONFIG-001 | Overly Permissive RBAC | T1548 | N/A | Entra ID | `21_Misconfig/MISCONFIG-001_RBAC.md` |
-| MISCONFIG-002 | Disabled MFA Requirements | T1556.006 | N/A | Entra ID/M365 | `21_Misconfig/MISCONFIG-002_MFA_Disabled.md` |
-| MISCONFIG-003 | Conditional Access Gaps | T1556 | N/A | Entra ID | `21_Misconfig/MISCONFIG-003_CA_Gaps.md` |
-| MISCONFIG-004 | Legacy Authentication Enabled | T1556 | N/A | Entra ID/M365 | `21_Misconfig/MISCONFIG-004_Legacy_Auth.md` |
-| MISCONFIG-005 | Insecure API Permissions | T1548 | N/A | M365/Entra ID | `21_Misconfig/MISCONFIG-005_API_Perms.md` |
-| MISCONFIG-006 | Public Blob Storage Containers | T1526 | N/A | Entra ID | `21_Misconfig/MISCONFIG-006_Public_Blobs.md` |
-| MISCONFIG-007 | Open Network Security Groups | T1526 | N/A | Entra ID | `21_Misconfig/MISCONFIG-007_NSG_Open.md` |
-| MISCONFIG-008 | Key Vault Access Policy Overpermission | T1526 | N/A | Entra ID | `21_Misconfig/MISCONFIG-008_KV_Perms.md` |
-| MISCONFIG-009 | Disabled Audit Logging | T1562.002 | N/A | Multi-Env | `21_Misconfig/MISCONFIG-009_Audit_Off.md` |
-| MISCONFIG-010 | Unencrypted Data Storage | T1526 | N/A | Multi-Env | `21_Misconfig/MISCONFIG-010_Unencrypted.md` |
-| MISCONFIG-011 | Default SSH Keys in Use | T1526 | N/A | Entra ID | `21_Misconfig/MISCONFIG-011_Default_SSH.md` |
-| MISCONFIG-012 | SQL Database Firewall Disabled | T1526 | N/A | Entra ID | `21_Misconfig/MISCONFIG-012_SQL_Firewall.md` |
-| MISCONFIG-013 | Storage Account Public Endpoints | T1526 | N/A | Entra ID | `21_Misconfig/MISCONFIG-013_Storage_Public.md` |
-| MISCONFIG-014 | Unmanaged External Apps | T1537 | N/A | M365 | `21_Misconfig/MISCONFIG-014_Unmanaged_Apps.md` |
-| MISCONFIG-015 | Guest User Access Over-Permissioned | T1548 | N/A | Entra ID | `21_Misconfig/MISCONFIG-015_Guest_Perms.md` |
-| MISCONFIG-016 | Privileged Account Not Monitored | T1556 | N/A | Multi-Env | `21_Misconfig/MISCONFIG-016_No_Monitor.md` |
-| MISCONFIG-017 | Default Connector Passwords | T1526 | N/A | Entra ID | `21_Misconfig/MISCONFIG-017_Connector_Pwd.md` |
-| MISCONFIG-018 | Unprotected Function App Secrets | T1552.001 | N/A | Entra ID | `21_Misconfig/MISCONFIG-018_Function_Secrets.md` |
-| MISCONFIG-019 | Weak Container Image Registry ACL | T1526 | N/A | Entra ID | `21_Misconfig/MISCONFIG-019_Registry_ACL.md` |
-| MISCONFIG-020 | Lack of Resource Locks | T1531 | N/A | Entra ID | `21_Misconfig/MISCONFIG-020_No_Locks.md` |
+| MISCONFIG-001 | Overly Permissive RBAC | T1548 | N/A | Entra ID | [21_Misconfig/MISCONFIG-001_RBAC.md](21_Misconfig/MISCONFIG-001_RBAC.md) |
+| MISCONFIG-002 | Disabled MFA Requirements | T1556.006 | N/A | Entra ID/M365 | [21_Misconfig/MISCONFIG-002_MFA_Disabled.md](21_Misconfig/MISCONFIG-002_MFA_Disabled.md) |
+| MISCONFIG-003 | Conditional Access Gaps | T1556 | N/A | Entra ID | [21_Misconfig/MISCONFIG-003_CA_Gaps.md](21_Misconfig/MISCONFIG-003_CA_Gaps.md) |
+| MISCONFIG-004 | Legacy Authentication Enabled | T1556 | N/A | Entra ID/M365 | [21_Misconfig/MISCONFIG-004_Legacy_Auth.md](21_Misconfig/MISCONFIG-004_Legacy_Auth.md) |
+| MISCONFIG-005 | Insecure API Permissions | T1548 | N/A | M365/Entra ID | [21_Misconfig/MISCONFIG-005_API_Perms.md](21_Misconfig/MISCONFIG-005_API_Perms.md) |
+| MISCONFIG-006 | Public Blob Storage Containers | T1526 | N/A | Entra ID | [21_Misconfig/MISCONFIG-006_Public_Blobs.md](21_Misconfig/MISCONFIG-006_Public_Blobs.md) |
+| MISCONFIG-007 | Open Network Security Groups | T1526 | N/A | Entra ID | [21_Misconfig/MISCONFIG-007_NSG_Open.md](21_Misconfig/MISCONFIG-007_NSG_Open.md) |
+| MISCONFIG-008 | Key Vault Access Policy Overpermission | T1526 | N/A | Entra ID | [21_Misconfig/MISCONFIG-008_KV_Perms.md](21_Misconfig/MISCONFIG-008_KV_Perms.md) |
+| MISCONFIG-009 | Disabled Audit Logging | T1562.002 | N/A | Multi-Env | [21_Misconfig/MISCONFIG-009_Audit_Off.md](21_Misconfig/MISCONFIG-009_Audit_Off.md) |
+| MISCONFIG-010 | Unencrypted Data Storage | T1526 | N/A | Multi-Env | [21_Misconfig/MISCONFIG-010_Unencrypted.md](21_Misconfig/MISCONFIG-010_Unencrypted.md) |
+| MISCONFIG-011 | Default SSH Keys in Use | T1526 | N/A | Entra ID | [21_Misconfig/MISCONFIG-011_Default_SSH.md](21_Misconfig/MISCONFIG-011_Default_SSH.md) |
+| MISCONFIG-012 | SQL Database Firewall Disabled | T1526 | N/A | Entra ID | [21_Misconfig/MISCONFIG-012_SQL_Firewall.md](21_Misconfig/MISCONFIG-012_SQL_Firewall.md) |
+| MISCONFIG-013 | Storage Account Public Endpoints | T1526 | N/A | Entra ID | [21_Misconfig/MISCONFIG-013_Storage_Public.md](21_Misconfig/MISCONFIG-013_Storage_Public.md) |
+| MISCONFIG-014 | Unmanaged External Apps | T1537 | N/A | M365 | [21_Misconfig/MISCONFIG-014_Unmanaged_Apps.md](21_Misconfig/MISCONFIG-014_Unmanaged_Apps.md) |
+| MISCONFIG-015 | Guest User Access Over-Permissioned | T1548 | N/A | Entra ID | [21_Misconfig/MISCONFIG-015_Guest_Perms.md](21_Misconfig/MISCONFIG-015_Guest_Perms.md) |
+| MISCONFIG-016 | Privileged Account Not Monitored | T1556 | N/A | Multi-Env | [21_Misconfig/MISCONFIG-016_No_Monitor.md](21_Misconfig/MISCONFIG-016_No_Monitor.md) |
+| MISCONFIG-017 | Default Connector Passwords | T1526 | N/A | Entra ID | [21_Misconfig/MISCONFIG-017_Connector_Pwd.md](21_Misconfig/MISCONFIG-017_Connector_Pwd.md) |
+| MISCONFIG-018 | Unprotected Function App Secrets | T1552.001 | N/A | Entra ID | [21_Misconfig/MISCONFIG-018_Function_Secrets.md](21_Misconfig/MISCONFIG-018_Function_Secrets.md) |
+| MISCONFIG-019 | Weak Container Image Registry ACL | T1526 | N/A | Entra ID | [21_Misconfig/MISCONFIG-019_Registry_ACL.md](21_Misconfig/MISCONFIG-019_Registry_ACL.md) |
+| MISCONFIG-020 | Lack of Resource Locks | T1531 | N/A | Entra ID | [21_Misconfig/MISCONFIG-020_No_Locks.md](21_Misconfig/MISCONFIG-020_No_Locks.md) |
 
 ---
 
@@ -742,10 +742,10 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| CHAIN-001 | Phishing to DA via Certificate Services | T1590+T1649 | CVE-2021-27239 | Windows AD | `22_Chains/CHAIN-001_Phish_Cert_DA.md` |
-| CHAIN-002 | Guest to GA via Conditional Access Gaps | T1078+T1548 | N/A | Entra ID | `22_Chains/CHAIN-002_Guest_CA_Gap.md` |
-| CHAIN-003 | Token Theft to Data Exfiltration | T1528+T1537 | N/A | M365 | `22_Chains/CHAIN-003_Token_Exfil.md` |
-| CHAIN-004 | Hybrid AD to Global Admin | T1550+T1098 | CVE-2023-32315 | Hybrid AD | `22_Chains/CHAIN-004_Hybrid_GA.md` |
+| CHAIN-001 | Phishing to DA via Certificate Services | T1590+T1649 | CVE-2021-27239 | Windows AD | [22_Chains/CHAIN-001_Phish_Cert_DA.md](22_Chains/CHAIN-001_Phish_Cert_DA.md) |
+| CHAIN-002 | Guest to GA via Conditional Access Gaps | T1078+T1548 | N/A | Entra ID | [22_Chains/CHAIN-002_Guest_CA_Gap.md](22_Chains/CHAIN-002_Guest_CA_Gap.md) |
+| CHAIN-003 | Token Theft to Data Exfiltration | T1528+T1537 | N/A | M365 | [22_Chains/CHAIN-003_Token_Exfil.md](22_Chains/CHAIN-003_Token_Exfil.md) |
+| CHAIN-004 | Hybrid AD to Global Admin | T1550+T1098 | CVE-2023-32315 | Hybrid AD | [22_Chains/CHAIN-004_Hybrid_GA.md](22_Chains/CHAIN-004_Hybrid_GA.md) |
 
 ---
 
@@ -753,8 +753,8 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| EMERGING-PE-001 | BadSuccessor dMSA Abuse | T1548 | N/A | Windows AD | `23_Emerging_PE/EMERGING-PE-001_BadSuccessor.md` |
-| EMERGING-PE-002 | AD DS Registry Key Elevation | T1068 | CVE-2025-21293 | Windows AD | `23_Emerging_PE/EMERGING-PE-002_ADDS_Registry.md` |
+| EMERGING-PE-001 | BadSuccessor dMSA Abuse | T1548 | N/A | Windows AD | [23_Emerging_PE/EMERGING-PE-001_BadSuccessor.md](23_Emerging_PE/EMERGING-PE-001_BadSuccessor.md) |
+| EMERGING-PE-002 | AD DS Registry Key Elevation | T1068 | CVE-2025-21293 | Windows AD | [23_Emerging_PE/EMERGING-PE-002_ADDS_Registry.md](23_Emerging_PE/EMERGING-PE-002_ADDS_Registry.md) |
 
 ---
 
@@ -764,98 +764,98 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REALWORLD-001 | BAV2ROPC Attack Chain | T1110.003 | N/A | Entra ID/M365 | `24_RealWorld/REALWORLD-001_BAV2ROPC.md` |
-| REALWORLD-002 | SMTP AUTH Legacy Protocol Abuse | T1550 | N/A | M365 | `24_RealWorld/REALWORLD-002_SMTP.md` |
-| REALWORLD-003 | POP/IMAP Basic Auth Abuse | T1550 | N/A | M365 | `24_RealWorld/REALWORLD-003_POP_IMAP.md` |
-| REALWORLD-004 | Legacy API Brute Force | T1110.003 | N/A | Entra ID/M365 | `24_RealWorld/REALWORLD-004_Legacy_BF.md` |
+| REALWORLD-001 | BAV2ROPC Attack Chain | T1110.003 | N/A | Entra ID/M365 | [24_RealWorld/REALWORLD-001_BAV2ROPC.md](24_RealWorld/REALWORLD-001_BAV2ROPC.md) |
+| REALWORLD-002 | SMTP AUTH Legacy Protocol Abuse | T1550 | N/A | M365 | [24_RealWorld/REALWORLD-002_SMTP.md](24_RealWorld/REALWORLD-002_SMTP.md) |
+| REALWORLD-003 | POP/IMAP Basic Auth Abuse | T1550 | N/A | M365 | [24_RealWorld/REALWORLD-003_POP_IMAP.md](24_RealWorld/REALWORLD-003_POP_IMAP.md) |
+| REALWORLD-004 | Legacy API Brute Force | T1110.003 | N/A | Entra ID/M365 | [24_RealWorld/REALWORLD-004_Legacy_BF.md](24_RealWorld/REALWORLD-004_Legacy_BF.md) |
 
 ## Subcategory 24.2: Actor Token Impersonation - CVE-2025-55241 (4 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REALWORLD-005 | Actor Token Impersonation | T1550 | CVE-2025-55241 | Entra ID | `24_RealWorld/REALWORLD-005_Actor_Token.md` |
-| REALWORLD-006 | Actor Token Extraction | T1528 | CVE-2025-55241 | Entra ID | `24_RealWorld/REALWORLD-006_Token_Extract.md` |
-| REALWORLD-007 | Actor Token Replay Cross-Tenant | T1550 | CVE-2025-55241 | Cross-Cloud | `24_RealWorld/REALWORLD-007_Token_Replay.md` |
-| REALWORLD-008 | Actor Token Global Admin | T1098 | CVE-2025-55241 | Entra ID | `24_RealWorld/REALWORLD-008_Token_GA.md` |
+| REALWORLD-005 | Actor Token Impersonation | T1550 | CVE-2025-55241 | Entra ID | [24_RealWorld/REALWORLD-005_Actor_Token.md](24_RealWorld/REALWORLD-005_Actor_Token.md) |
+| REALWORLD-006 | Actor Token Extraction | T1528 | CVE-2025-55241 | Entra ID | [24_RealWorld/REALWORLD-006_Token_Extract.md](24_RealWorld/REALWORLD-006_Token_Extract.md) |
+| REALWORLD-007 | Actor Token Replay Cross-Tenant | T1550 | CVE-2025-55241 | Cross-Cloud | [24_RealWorld/REALWORLD-007_Token_Replay.md](24_RealWorld/REALWORLD-007_Token_Replay.md) |
+| REALWORLD-008 | Actor Token Global Admin | T1098 | CVE-2025-55241 | Entra ID | [24_RealWorld/REALWORLD-008_Token_GA.md](24_RealWorld/REALWORLD-008_Token_GA.md) |
 
 ## Subcategory 24.3: FIDO Downgrade & AiTM Phishing (4 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REALWORLD-009 | FIDO2 Downgrade Evilginx2 | T1556.006 | N/A | Entra ID | `24_RealWorld/REALWORLD-009_FIDO_Down.md` |
-| REALWORLD-010 | Safari-on-Windows Device Spoof | T1556.006 | N/A | Entra ID | `24_RealWorld/REALWORLD-010_Safari_Spoof.md` |
-| REALWORLD-011 | AiTM FIDO Unsupported Error | T1557 | N/A | Entra ID | `24_RealWorld/REALWORLD-011_FIDO_AiTM.md` |
-| REALWORLD-012 | MFA Downgrade via AiTM | T1556.006 | N/A | Entra ID | `24_RealWorld/REALWORLD-012_MFA_Down.md` |
+| REALWORLD-009 | FIDO2 Downgrade Evilginx2 | T1556.006 | N/A | Entra ID | [24_RealWorld/REALWORLD-009_FIDO_Down.md](24_RealWorld/REALWORLD-009_FIDO_Down.md) |
+| REALWORLD-010 | Safari-on-Windows Device Spoof | T1556.006 | N/A | Entra ID | [24_RealWorld/REALWORLD-010_Safari_Spoof.md](24_RealWorld/REALWORLD-010_Safari_Spoof.md) |
+| REALWORLD-011 | AiTM FIDO Unsupported Error | T1557 | N/A | Entra ID | [24_RealWorld/REALWORLD-011_FIDO_AiTM.md](24_RealWorld/REALWORLD-011_FIDO_AiTM.md) |
+| REALWORLD-012 | MFA Downgrade via AiTM | T1556.006 | N/A | Entra ID | [24_RealWorld/REALWORLD-012_MFA_Down.md](24_RealWorld/REALWORLD-012_MFA_Down.md) |
 
 ## Subcategory 24.4: Evil VM Device Identity (3 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REALWORLD-013 | Evil VM Device Identity | T1078.004 | N/A | Hybrid/Entra | `24_RealWorld/REALWORLD-013_Evil_VM.md` |
-| REALWORLD-014 | PRT Device Identity Manipulation | T1528 | N/A | Hybrid/Entra | `24_RealWorld/REALWORLD-014_PRT_Device.md` |
-| REALWORLD-015 | Guest to Admin Azure VM | T1550 | N/A | Entra ID | `24_RealWorld/REALWORLD-015_Guest_Admin.md` |
+| REALWORLD-013 | Evil VM Device Identity | T1078.004 | N/A | Hybrid/Entra | [24_RealWorld/REALWORLD-013_Evil_VM.md](24_RealWorld/REALWORLD-013_Evil_VM.md) |
+| REALWORLD-014 | PRT Device Identity Manipulation | T1528 | N/A | Hybrid/Entra | [24_RealWorld/REALWORLD-014_PRT_Device.md](24_RealWorld/REALWORLD-014_PRT_Device.md) |
+| REALWORLD-015 | Guest to Admin Azure VM | T1550 | N/A | Entra ID | [24_RealWorld/REALWORLD-015_Guest_Admin.md](24_RealWorld/REALWORLD-015_Guest_Admin.md) |
 
 ## Subcategory 24.5: OAuth IdP Admin Compromise (4 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REALWORLD-016 | IdP Admin Account Compromise | T1098 | N/A | Cross-Cloud | `24_RealWorld/REALWORLD-016_IdP_Admin.md` |
-| REALWORLD-017 | Inbound Federation Rule Creation | T1556 | N/A | Cross-Cloud | `24_RealWorld/REALWORLD-017_Fed_Rules.md` |
-| REALWORLD-018 | OAuth Provider Impersonation | T1484.002 | N/A | Cross-Cloud | `24_RealWorld/REALWORLD-018_OAuth_Imperson.md` |
-| REALWORLD-019 | Scattered Spider IdP TTP | T1098.003 | N/A | Cross-Cloud | `24_RealWorld/REALWORLD-019_Scattered_IdP.md` |
+| REALWORLD-016 | IdP Admin Account Compromise | T1098 | N/A | Cross-Cloud | [24_RealWorld/REALWORLD-016_IdP_Admin.md](24_RealWorld/REALWORLD-016_IdP_Admin.md) |
+| REALWORLD-017 | Inbound Federation Rule Creation | T1556 | N/A | Cross-Cloud | [24_RealWorld/REALWORLD-017_Fed_Rules.md](24_RealWorld/REALWORLD-017_Fed_Rules.md) |
+| REALWORLD-018 | OAuth Provider Impersonation | T1484.002 | N/A | Cross-Cloud | [24_RealWorld/REALWORLD-018_OAuth_Imperson.md](24_RealWorld/REALWORLD-018_OAuth_Imperson.md) |
+| REALWORLD-019 | Scattered Spider IdP TTP | T1098.003 | N/A | Cross-Cloud | [24_RealWorld/REALWORLD-019_Scattered_IdP.md](24_RealWorld/REALWORLD-019_Scattered_IdP.md) |
 
 ## Subcategory 24.6: Token Replay with CAE Evasion (5 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REALWORLD-020 | Token Replay CAE Evasion | T1550 | N/A | Entra ID | `24_RealWorld/REALWORLD-020_Token_Replay.md` |
-| REALWORLD-021 | Linkable Token ID Bypass | T1550.001 | N/A | Entra ID | `24_RealWorld/REALWORLD-021_Token_ID.md` |
-| REALWORLD-022 | Impossible Travel Evasion | T1550 | N/A | Entra ID | `24_RealWorld/REALWORLD-022_Impossible_Travel.md` |
-| REALWORLD-023 | Refresh Token Rotation Evasion | T1550 | N/A | Entra ID | `24_RealWorld/REALWORLD-023_Refresh_Evasion.md` |
-| REALWORLD-024 | Behavioral Profiling Attacks | T1589 | N/A | Multi-Env | `24_RealWorld/REALWORLD-024_Behavioral.md` |
+| REALWORLD-020 | Token Replay CAE Evasion | T1550 | N/A | Entra ID | [24_RealWorld/REALWORLD-020_Token_Replay.md](24_RealWorld/REALWORLD-020_Token_Replay.md) |
+| REALWORLD-021 | Linkable Token ID Bypass | T1550.001 | N/A | Entra ID | [24_RealWorld/REALWORLD-021_Token_ID.md](24_RealWorld/REALWORLD-021_Token_ID.md) |
+| REALWORLD-022 | Impossible Travel Evasion | T1550 | N/A | Entra ID | [24_RealWorld/REALWORLD-022_Impossible_Travel.md](24_RealWorld/REALWORLD-022_Impossible_Travel.md) |
+| REALWORLD-023 | Refresh Token Rotation Evasion | T1550 | N/A | Entra ID | [24_RealWorld/REALWORLD-023_Refresh_Evasion.md](24_RealWorld/REALWORLD-023_Refresh_Evasion.md) |
+| REALWORLD-024 | Behavioral Profiling Attacks | T1589 | N/A | Multi-Env | [24_RealWorld/REALWORLD-024_Behavioral.md](24_RealWorld/REALWORLD-024_Behavioral.md) |
 
 ## Subcategory 24.7: Advanced Persistence Techniques (6 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REALWORLD-025 | Hidden File Share Creation | T1548 | N/A | Windows AD | `24_RealWorld/REALWORLD-025_Hidden_Share.md` |
-| REALWORLD-026 | Service Account Token Harvesting | T1528 | N/A | Windows AD | `24_RealWorld/REALWORLD-026_Service_Token.md` |
-| REALWORLD-027 | Scheduled Task Obfuscation | T1053 | N/A | Windows AD | `24_RealWorld/REALWORLD-027_Task_Obfus.md` |
-| REALWORLD-028 | WMI Event Subscriber Persistence | T1546.003 | N/A | Windows Endpoint | `24_RealWorld/REALWORLD-028_WMI_Event.md` |
-| REALWORLD-029 | Registry Run Key Polymorphism | T1112 | N/A | Windows Endpoint | `24_RealWorld/REALWORLD-029_Registry_Poly.md` |
-| REALWORLD-030 | DLL Search Order Hijacking | T1574.001 | N/A | Windows Endpoint | `24_RealWorld/REALWORLD-030_DLL_Hijack.md` |
+| REALWORLD-025 | Hidden File Share Creation | T1548 | N/A | Windows AD | [24_RealWorld/REALWORLD-025_Hidden_Share.md](24_RealWorld/REALWORLD-025_Hidden_Share.md) |
+| REALWORLD-026 | Service Account Token Harvesting | T1528 | N/A | Windows AD | [24_RealWorld/REALWORLD-026_Service_Token.md](24_RealWorld/REALWORLD-026_Service_Token.md) |
+| REALWORLD-027 | Scheduled Task Obfuscation | T1053 | N/A | Windows AD | [24_RealWorld/REALWORLD-027_Task_Obfus.md](24_RealWorld/REALWORLD-027_Task_Obfus.md) |
+| REALWORLD-028 | WMI Event Subscriber Persistence | T1546.003 | N/A | Windows Endpoint | [24_RealWorld/REALWORLD-028_WMI_Event.md](24_RealWorld/REALWORLD-028_WMI_Event.md) |
+| REALWORLD-029 | Registry Run Key Polymorphism | T1112 | N/A | Windows Endpoint | [24_RealWorld/REALWORLD-029_Registry_Poly.md](24_RealWorld/REALWORLD-029_Registry_Poly.md) |
+| REALWORLD-030 | DLL Search Order Hijacking | T1574.001 | N/A | Windows Endpoint | [24_RealWorld/REALWORLD-030_DLL_Hijack.md](24_RealWorld/REALWORLD-030_DLL_Hijack.md) |
 
 ## Subcategory 24.8: Advanced Lateral Movement (6 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REALWORLD-031 | Token Binding Extraction | T1528 | N/A | M365 | `24_RealWorld/REALWORLD-031_Token_Binding.md` |
-| REALWORLD-032 | Graph API Backdoor Creation | T1098 | N/A | Entra ID | `24_RealWorld/REALWORLD-032_Graph_Backdoor.md` |
-| REALWORLD-033 | Service Principal Certificate Persistence | T1098 | N/A | Entra ID | `24_RealWorld/REALWORLD-033_SP_Cert_Persist.md` |
-| REALWORLD-034 | Azure Resource Manager API Abuse | T1550 | N/A | Entra ID | `24_RealWorld/REALWORLD-034_ARM_API.md` |
-| REALWORLD-035 | Container Registry Credential Reuse | T1528 | N/A | Entra ID | `24_RealWorld/REALWORLD-035_Container_Creds.md` |
-| REALWORLD-036 | Managed Identity Chaining | T1550 | N/A | Entra ID | `24_RealWorld/REALWORLD-036_MID_Chain.md` |
+| REALWORLD-031 | Token Binding Extraction | T1528 | N/A | M365 | [24_RealWorld/REALWORLD-031_Token_Binding.md](24_RealWorld/REALWORLD-031_Token_Binding.md) |
+| REALWORLD-032 | Graph API Backdoor Creation | T1098 | N/A | Entra ID | [24_RealWorld/REALWORLD-032_Graph_Backdoor.md](24_RealWorld/REALWORLD-032_Graph_Backdoor.md) |
+| REALWORLD-033 | Service Principal Certificate Persistence | T1098 | N/A | Entra ID | [24_RealWorld/REALWORLD-033_SP_Cert_Persist.md](24_RealWorld/REALWORLD-033_SP_Cert_Persist.md) |
+| REALWORLD-034 | Azure Resource Manager API Abuse | T1550 | N/A | Entra ID | [24_RealWorld/REALWORLD-034_ARM_API.md](24_RealWorld/REALWORLD-034_ARM_API.md) |
+| REALWORLD-035 | Container Registry Credential Reuse | T1528 | N/A | Entra ID | [24_RealWorld/REALWORLD-035_Container_Creds.md](24_RealWorld/REALWORLD-035_Container_Creds.md) |
+| REALWORLD-036 | Managed Identity Chaining | T1550 | N/A | Entra ID | [24_RealWorld/REALWORLD-036_MID_Chain.md](24_RealWorld/REALWORLD-036_MID_Chain.md) |
 
 ## Subcategory 24.9: Detection Evasion Tactics (6 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REALWORLD-037 | Sentinel Rule Modification | T1562.001 | N/A | Entra ID | `24_RealWorld/REALWORLD-037_Sentinel_Mod.md` |
-| REALWORLD-038 | Audit Log Selective Deletion | T1070.001 | N/A | M365/Entra ID | `24_RealWorld/REALWORLD-038_Audit_Delete.md` |
-| REALWORLD-039 | Sign-in Log Poisoning | T1562.002 | N/A | Entra ID | `24_RealWorld/REALWORLD-039_SignIn_Poison.md` |
-| REALWORLD-040 | Conditional Access Policy Cloning | T1556 | N/A | Entra ID | `24_RealWorld/REALWORLD-040_CA_Clone.md` |
-| REALWORLD-041 | Device Compliance Policy Bypass | T1548 | N/A | Entra ID | `24_RealWorld/REALWORLD-041_Compliance_Bypass.md` |
-| REALWORLD-042 | Intune Configuration Drift | T1562 | N/A | M365 | `24_RealWorld/REALWORLD-042_Intune_Drift.md` |
+| REALWORLD-037 | Sentinel Rule Modification | T1562.001 | N/A | Entra ID | [24_RealWorld/REALWORLD-037_Sentinel_Mod.md](24_RealWorld/REALWORLD-037_Sentinel_Mod.md) |
+| REALWORLD-038 | Audit Log Selective Deletion | T1070.001 | N/A | M365/Entra ID | [24_RealWorld/REALWORLD-038_Audit_Delete.md](24_RealWorld/REALWORLD-038_Audit_Delete.md) |
+| REALWORLD-039 | Sign-in Log Poisoning | T1562.002 | N/A | Entra ID | [24_RealWorld/REALWORLD-039_SignIn_Poison.md](24_RealWorld/REALWORLD-039_SignIn_Poison.md) |
+| REALWORLD-040 | Conditional Access Policy Cloning | T1556 | N/A | Entra ID | [24_RealWorld/REALWORLD-040_CA_Clone.md](24_RealWorld/REALWORLD-040_CA_Clone.md) |
+| REALWORLD-041 | Device Compliance Policy Bypass | T1548 | N/A | Entra ID | [24_RealWorld/REALWORLD-041_Compliance_Bypass.md](24_RealWorld/REALWORLD-041_Compliance_Bypass.md) |
+| REALWORLD-042 | Intune Configuration Drift | T1562 | N/A | M365 | [24_RealWorld/REALWORLD-042_Intune_Drift.md](24_RealWorld/REALWORLD-042_Intune_Drift.md) |
 
 ## Subcategory 24.10: Advanced Data Exfiltration (5 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| REALWORLD-043 | SharePoint Metadata Exfiltration | T1537 | N/A | M365 | `24_RealWorld/REALWORLD-043_SP_Metadata.md` |
-| REALWORLD-044 | Teams Compliance Copy Exploitation | T1537 | N/A | M365 | `24_RealWorld/REALWORLD-044_Teams_Compliance.md` |
-| REALWORLD-045 | Azure Storage Analytics Abuse | T1537 | N/A | Entra ID | `24_RealWorld/REALWORLD-045_Storage_Analytics.md` |
-| REALWORLD-046 | Multi-Cloud Data Bridge Attack | T1537 | N/A | Cross-Cloud | `24_RealWorld/REALWORLD-046_Cloud_Bridge.md` |
-| REALWORLD-047 | Azure Entra ID Sign-in Log Tampering | T1562.002 | N/A | Entra ID | `24_RealWorld/REALWORLD-047_SignIn_Tamper.md` |
+| REALWORLD-043 | SharePoint Metadata Exfiltration | T1537 | N/A | M365 | [24_RealWorld/REALWORLD-043_SP_Metadata.md](24_RealWorld/REALWORLD-043_SP_Metadata.md) |
+| REALWORLD-044 | Teams Compliance Copy Exploitation | T1537 | N/A | M365 | [24_RealWorld/REALWORLD-044_Teams_Compliance.md](24_RealWorld/REALWORLD-044_Teams_Compliance.md) |
+| REALWORLD-045 | Azure Storage Analytics Abuse | T1537 | N/A | Entra ID | [24_RealWorld/REALWORLD-045_Storage_Analytics.md](24_RealWorld/REALWORLD-045_Storage_Analytics.md) |
+| REALWORLD-046 | Multi-Cloud Data Bridge Attack | T1537 | N/A | Cross-Cloud | [24_RealWorld/REALWORLD-046_Cloud_Bridge.md](24_RealWorld/REALWORLD-046_Cloud_Bridge.md) |
+| REALWORLD-047 | Azure Entra ID Sign-in Log Tampering | T1562.002 | N/A | Entra ID | [24_RealWorld/REALWORLD-047_SignIn_Tamper.md](24_RealWorld/REALWORLD-047_SignIn_Tamper.md) |
 
 ---
 
