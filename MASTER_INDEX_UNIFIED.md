@@ -315,81 +315,81 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PERSIST-ACCT-001 | AdminSDHolder Abuse | T1098 | N/A | Windows AD | `05_Persist/PERSIST-ACCT-001_AdminSDHolder.md` |
-| PERSIST-ACCT-002 | Shadow Credentials Backdoor | T1098 | N/A | Windows AD | `05_Persist/PERSIST-ACCT-002_Shadow_Creds.md` |
-| PERSIST-ACCT-003 | Group Nesting Abuse | T1098 | N/A | Windows AD | `05_Persist/PERSIST-ACCT-003_Group_Nesting.md` |
-| PERSIST-ACCT-004 | Azure Automation Account Persistence | T1098 | N/A | Entra ID | `05_Persist/PERSIST-ACCT-004_Automation.md` |
-| PERSIST-ACCT-005 | Graph API Application Persistence | T1098 | N/A | M365/Entra ID | `05_Persist/PERSIST-ACCT-005_Graph_App.md` |
-| PERSIST-ACCT-006 | Service Principal Cert/Secret Persistence | T1098 | N/A | Entra ID | `05_Persist/PERSIST-ACCT-006_SP_Persistence.md` |
-| PERSIST-ACCT-007 | Exchange Transport Rules Backdoor | T1098 | N/A | M365 | `05_Persist/PERSIST-ACCT-007_Transport_Rules.md` |
-| PERSIST-ACCT-008 | Custom Directory Extensions | T1098 | N/A | Entra ID | `05_Persist/PERSIST-ACCT-008_Dir_Extensions.md` |
+| PERSIST-ACCT-001 | AdminSDHolder Abuse | T1098 | N/A | Windows AD | [05_Persist/PERSIST-ACCT-001_AdminSDHolder.md](05_Persist/PERSIST-ACCT-001_AdminSDHolder.md) |
+| PERSIST-ACCT-002 | Shadow Credentials Backdoor | T1098 | N/A | Windows AD | [05_Persist/PERSIST-ACCT-002_Shadow_Creds.md](05_Persist/PERSIST-ACCT-002_Shadow_Creds.md) |
+| PERSIST-ACCT-003 | Group Nesting Abuse | T1098 | N/A | Windows AD | [05_Persist/PERSIST-ACCT-003_Group_Nesting.md](05_Persist/PERSIST-ACCT-003_Group_Nesting.md) |
+| PERSIST-ACCT-004 | Azure Automation Account Persistence | T1098 | N/A | Entra ID | [05_Persist/PERSIST-ACCT-004_Automation.md](05_Persist/PERSIST-ACCT-004_Automation.md) |
+| PERSIST-ACCT-005 | Graph API Application Persistence | T1098 | N/A | M365/Entra ID | [05_Persist/PERSIST-ACCT-005_Graph_App.md](05_Persist/PERSIST-ACCT-005_Graph_App.md) |
+| PERSIST-ACCT-006 | Service Principal Cert/Secret Persistence | T1098 | N/A | Entra ID | [05_Persist/PERSIST-ACCT-006_SP_Persistence.md](05_Persist/PERSIST-ACCT-006_SP_Persistence.md) |
+| PERSIST-ACCT-007 | Exchange Transport Rules Backdoor | T1098 | N/A | M365 | [05_Persist/PERSIST-ACCT-007_Transport_Rules.md](05_Persist/PERSIST-ACCT-007_Transport_Rules.md) |
+| PERSIST-ACCT-008 | Custom Directory Extensions | T1098 | N/A | Entra ID | [05_Persist/PERSIST-ACCT-008_Dir_Extensions.md](05_Persist/PERSIST-ACCT-008_Dir_Extensions.md) |
 
 ## Subcategory 5.2: Valid Accounts - Persistence (5 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PERSIST-VALID-001 | Service Account Hijacking | T1078.002 | N/A | Windows AD | `05_Persist/PERSIST-VALID-001_Service_Acct.md` |
-| PERSIST-VALID-002 | Azure AD Connect Sync Persistence | T1078.004 | CVE-2023-32315 | Hybrid AD | `05_Persist/PERSIST-VALID-002_AADConnect.md` |
-| PERSIST-VALID-003 | Azure AD Connect Server Takeover | T1078.004 | CVE-2023-32315 | Hybrid AD | `05_Persist/PERSIST-VALID-003_AADConnect_Takeover.md` |
-| PERSIST-VALID-004 | AzureAD Hybrid Join Exploitation | T1078.004 | N/A | Hybrid AD | `05_Persist/PERSIST-VALID-004_Hybrid_Join.md` |
-| PERSIST-VALID-005 | Workload Identity Federation | T1078.004 | N/A | Entra ID | `05_Persist/PERSIST-VALID-005_Workload_ID.md` |
+| PERSIST-VALID-001 | Service Account Hijacking | T1078.002 | N/A | Windows AD | [05_Persist/PERSIST-VALID-001_Service_Acct.md](05_Persist/PERSIST-VALID-001_Service_Acct.md) |
+| PERSIST-VALID-002 | Azure AD Connect Sync Persistence | T1078.004 | CVE-2023-32315 | Hybrid AD | [05_Persist/PERSIST-VALID-002_AADConnect.md](05_Persist/PERSIST-VALID-002_AADConnect.md) |
+| PERSIST-VALID-003 | Azure AD Connect Server Takeover | T1078.004 | CVE-2023-32315 | Hybrid AD | [05_Persist/PERSIST-VALID-003_AADConnect_Takeover.md](05_Persist/PERSIST-VALID-003_AADConnect_Takeover.md) |
+| PERSIST-VALID-004 | AzureAD Hybrid Join Exploitation | T1078.004 | N/A | Hybrid AD | [05_Persist/PERSIST-VALID-004_Hybrid_Join.md](05_Persist/PERSIST-VALID-004_Hybrid_Join.md) |
+| PERSIST-VALID-005 | Workload Identity Federation | T1078.004 | N/A | Entra ID | [05_Persist/PERSIST-VALID-005_Workload_ID.md](05_Persist/PERSIST-VALID-005_Workload_ID.md) |
 
 ## Subcategory 5.3: Boot/Logon Execution & Scheduled Tasks (6 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PERSIST-BOOT-001 | Abusing Security Support Provider | T1547.005 | N/A | Windows AD | `05_Persist/PERSIST-BOOT-001_SSP.md` |
-| PERSIST-BOOT-002 | Weaponizing Printer Bug | T1547 | N/A | Windows AD | `05_Persist/PERSIST-BOOT-002_Printer_Bug.md` |
-| PERSIST-BOOT-003 | Startup Scripts via GPO | T1037 | N/A | Windows AD | `05_Persist/PERSIST-BOOT-003_GPO_Scripts.md` |
-| PERSIST-SCHED-001 | Azure Runbook Persistence | T1053 | N/A | Entra ID | `05_Persist/PERSIST-SCHED-001_Runbook.md` |
-| PERSIST-SCHED-002 | Logic App Backdoors | T1053 | N/A | Entra ID | `05_Persist/PERSIST-SCHED-002_Logic_App.md` |
-| PERSIST-SCHED-003 | Azure DevOps Pipeline Persistence | T1053 | N/A | Entra ID | `05_Persist/PERSIST-SCHED-003_Pipeline.md` |
+| PERSIST-BOOT-001 | Abusing Security Support Provider | T1547.005 | N/A | Windows AD | [05_Persist/PERSIST-BOOT-001_SSP.md](05_Persist/PERSIST-BOOT-001_SSP.md) |
+| PERSIST-BOOT-002 | Weaponizing Printer Bug | T1547 | N/A | Windows AD | [05_Persist/PERSIST-BOOT-002_Printer_Bug.md](05_Persist/PERSIST-BOOT-002_Printer_Bug.md) |
+| PERSIST-BOOT-003 | Startup Scripts via GPO | T1037 | N/A | Windows AD | [05_Persist/PERSIST-BOOT-003_GPO_Scripts.md](05_Persist/PERSIST-BOOT-003_GPO_Scripts.md) |
+| PERSIST-SCHED-001 | Azure Runbook Persistence | T1053 | N/A | Entra ID | [05_Persist/PERSIST-SCHED-001_Runbook.md](05_Persist/PERSIST-SCHED-001_Runbook.md) |
+| PERSIST-SCHED-002 | Logic App Backdoors | T1053 | N/A | Entra ID | [05_Persist/PERSIST-SCHED-002_Logic_App.md](05_Persist/PERSIST-SCHED-002_Logic_App.md) |
+| PERSIST-SCHED-003 | Azure DevOps Pipeline Persistence | T1053 | N/A | Entra ID | [05_Persist/PERSIST-SCHED-003_Pipeline.md](05_Persist/PERSIST-SCHED-003_Pipeline.md) |
 
 ## Subcategory 5.4: Server Software Components (9 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PERSIST-SERVER-001 | Skeleton Key Malware | T1505.003 | N/A | Windows AD | `05_Persist/PERSIST-SERVER-001_Skeleton_Key.md` |
-| PERSIST-SERVER-002 | DSRM Account Backdoor | T1505.003 | N/A | Windows AD | `05_Persist/PERSIST-SERVER-002_DSRM.md` |
-| PERSIST-SERVER-003 | Azure Function Backdoor | T1505.003 | N/A | Entra ID | `05_Persist/PERSIST-SERVER-003_Function.md` |
-| PERSIST-SERVER-004 | Teams Webhook Persistence | T1505.003 | N/A | M365 | `05_Persist/PERSIST-SERVER-004_Teams_Webhook.md` |
-| PERSIST-SERVER-005 | SharePoint Site Script Persistence | T1505.003 | N/A | M365 | `05_Persist/PERSIST-SERVER-005_SharePoint_Script.md` |
-| PERSIST-SERVER-006 | App Service Deployment Persistence | T1505.003 | N/A | Entra ID | `05_Persist/PERSIST-SERVER-006_App_Service.md` |
-| PERSIST-SERVER-007 | SaaS Application Backdoor | T1505.003 | N/A | M365/Entra ID | `05_Persist/PERSIST-SERVER-007_SaaS_Backdoor.md` |
-| PERSIST-SERVER-008 | CLFS Driver Backdoor (CVE-2025-29824) | T1505.003 | CVE-2025-29824 | Windows Endpoint | `05_Persist/PERSIST-SERVER-008_CLFS.md` |
-| PERSIST-SCHED-004 | SCCM Application Deployment | T1053.005 | N/A | Windows AD | `05_Persist/PERSIST-SCHED-004_SCCM_App.md` |
+| PERSIST-SERVER-001 | Skeleton Key Malware | T1505.003 | N/A | Windows AD | [05_Persist/PERSIST-SERVER-001_Skeleton_Key.md](05_Persist/PERSIST-SERVER-001_Skeleton_Key.md) |
+| PERSIST-SERVER-002 | DSRM Account Backdoor | T1505.003 | N/A | Windows AD | [05_Persist/PERSIST-SERVER-002_DSRM.md](05_Persist/PERSIST-SERVER-002_DSRM.md) |
+| PERSIST-SERVER-003 | Azure Function Backdoor | T1505.003 | N/A | Entra ID | [05_Persist/PERSIST-SERVER-003_Function.md](05_Persist/PERSIST-SERVER-003_Function.md) |
+| PERSIST-SERVER-004 | Teams Webhook Persistence | T1505.003 | N/A | M365 | [05_Persist/PERSIST-SERVER-004_Teams_Webhook.md](05_Persist/PERSIST-SERVER-004_Teams_Webhook.md) |
+| PERSIST-SERVER-005 | SharePoint Site Script Persistence | T1505.003 | N/A | M365 | [05_Persist/PERSIST-SERVER-005_SharePoint_Script.md](05_Persist/PERSIST-SERVER-005_SharePoint_Script.md) |
+| PERSIST-SERVER-006 | App Service Deployment Persistence | T1505.003 | N/A | Entra ID | [05_Persist/PERSIST-SERVER-006_App_Service.md](05_Persist/PERSIST-SERVER-006_App_Service.md) |
+| PERSIST-SERVER-007 | SaaS Application Backdoor | T1505.003 | N/A | M365/Entra ID | [05_Persist/PERSIST-SERVER-007_SaaS_Backdoor.md](05_Persist/PERSIST-SERVER-007_SaaS_Backdoor.md) |
+| PERSIST-SERVER-008 | CLFS Driver Backdoor (CVE-2025-29824) | T1505.003 | CVE-2025-29824 | Windows Endpoint | [05_Persist/PERSIST-SERVER-008_CLFS.md](05_Persist/PERSIST-SERVER-008_CLFS.md) |
+| PERSIST-SCHED-004 | SCCM Application Deployment | T1053.005 | N/A | Windows AD | [05_Persist/PERSIST-SCHED-004_SCCM_App.md](05_Persist/PERSIST-SCHED-004_SCCM_App.md) |
 
 ## Subcategory 5.5: Event Triggered & Process Injection (5 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PERSIST-EVENT-001 | WMI Event Subscriptions | T1546.003 | N/A | Windows Endpoint | `05_Persist/PERSIST-EVENT-001_WMI.md` |
-| PERSIST-EVENT-002 | Intune Management Extension | T1546 | N/A | M365 | `05_Persist/PERSIST-EVENT-002_Intune_Ext.md` |
-| PERSIST-EVENT-003 | Microsoft Power Automate Flow | T1546 | N/A | M365 | `05_Persist/PERSIST-EVENT-003_Power_Automate.md` |
-| PERSIST-MODIFY-001 | Skeleton Key Attack | T1556 | N/A | Windows AD | `05_Persist/PERSIST-MODIFY-001_Skeleton_Key.md` |
-| PERSIST-MODIFY-002 | Malicious Certificate Template | T1556.004 | CVE-2021-27239 | Windows AD | `05_Persist/PERSIST-MODIFY-002_Cert_Template.md` |
+| PERSIST-EVENT-001 | WMI Event Subscriptions | T1546.003 | N/A | Windows Endpoint | [05_Persist/PERSIST-EVENT-001_WMI.md](05_Persist/PERSIST-EVENT-001_WMI.md) |
+| PERSIST-EVENT-002 | Intune Management Extension | T1546 | N/A | M365 | [05_Persist/PERSIST-EVENT-002_Intune_Ext.md](05_Persist/PERSIST-EVENT-002_Intune_Ext.md) |
+| PERSIST-EVENT-003 | Microsoft Power Automate Flow | T1546 | N/A | M365 | [05_Persist/PERSIST-EVENT-003_Power_Automate.md](05_Persist/PERSIST-EVENT-003_Power_Automate.md) |
+| PERSIST-MODIFY-001 | Skeleton Key Attack | T1556 | N/A | Windows AD | [05_Persist/PERSIST-MODIFY-001_Skeleton_Key.md](05_Persist/PERSIST-MODIFY-001_Skeleton_Key.md) |
+| PERSIST-MODIFY-002 | Malicious Certificate Template | T1556.004 | CVE-2021-27239 | Windows AD | [05_Persist/PERSIST-MODIFY-002_Cert_Template.md](05_Persist/PERSIST-MODIFY-002_Cert_Template.md) |
 
 ## Subcategory 5.6: Rogue DC & Trust Modification (6 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PERSIST-ROGUE-001 | DCShadow Attack | T1207 | N/A | Windows AD | `05_Persist/PERSIST-ROGUE-001_DCShadow.md` |
-| PERSIST-ROGUE-002 | Domain Controller Cloning | T1207 | N/A | Windows AD | `05_Persist/PERSIST-ROGUE-002_DC_Clone.md` |
-| PERSIST-ROGUE-003 | ADFS Farm Compromise | T1207 | N/A | Hybrid AD | `05_Persist/PERSIST-ROGUE-003_ADFS_Farm.md` |
-| PERSIST-INJECT-001 | Credential Injection via LSASS | T1055.001 | N/A | Windows Endpoint | `05_Persist/PERSIST-INJECT-001_LSASS.md` |
-| PERSIST-EMAIL-001 | Mail Forwarding Rules | T1114 | N/A | M365 | `05_Persist/PERSIST-EMAIL-001_Mail_Forward.md` |
-| PERSIST-REMOTE-001 | SharePoint Exploitation | T1133 | N/A | M365 | `05_Persist/PERSIST-REMOTE-001_SharePoint.md` |
+| PERSIST-ROGUE-001 | DCShadow Attack | T1207 | N/A | Windows AD | [05_Persist/PERSIST-ROGUE-001_DCShadow.md](05_Persist/PERSIST-ROGUE-001_DCShadow.md) |
+| PERSIST-ROGUE-002 | Domain Controller Cloning | T1207 | N/A | Windows AD | [05_Persist/PERSIST-ROGUE-002_DC_Clone.md](05_Persist/PERSIST-ROGUE-002_DC_Clone.md) |
+| PERSIST-ROGUE-003 | ADFS Farm Compromise | T1207 | N/A | Hybrid AD | [05_Persist/PERSIST-ROGUE-003_ADFS_Farm.md](05_Persist/PERSIST-ROGUE-003_ADFS_Farm.md) |
+| PERSIST-INJECT-001 | Credential Injection via LSASS | T1055.001 | N/A | Windows Endpoint | [05_Persist/PERSIST-INJECT-001_LSASS.md](05_Persist/PERSIST-INJECT-001_LSASS.md) |
+| PERSIST-EMAIL-001 | Mail Forwarding Rules | T1114 | N/A | M365 | [05_Persist/PERSIST-EMAIL-001_Mail_Forward.md](05_Persist/PERSIST-EMAIL-001_Mail_Forward.md) |
+| PERSIST-REMOTE-001 | SharePoint Exploitation | T1133 | N/A | M365 | [05_Persist/PERSIST-REMOTE-001_SharePoint.md](05_Persist/PERSIST-REMOTE-001_SharePoint.md) |
 
 ## Subcategory 5.7: Impair Defenses & Policy Backdoors (6 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PERSIST-IMPAIR-001 | Conditional Access Policy Backdoors | T1562.001 | N/A | Entra ID | `05_Persist/PERSIST-IMPAIR-001_CA_Backdoor.md` |
-| PERSIST-IMPAIR-002 | Authentication Policy Backdoors | T1562.001 | N/A | Entra ID | `05_Persist/PERSIST-IMPAIR-002_Auth_Policy.md` |
-| PERSIST-IMPAIR-003 | Microsoft Information Protection Labels | T1562.001 | N/A | M365 | `05_Persist/PERSIST-IMPAIR-003_MIP_Labels.md` |
-| PERSIST-TRUST-001 | Federation Trust Configuration Tampering | T1484.002 | N/A | Cross-Cloud | `05_Persist/PERSIST-TRUST-001_Fed_Config.md` |
-| PERSIST-TRUST-002 | Tenant-to-Tenant Migration Abuse | T1484.002 | N/A | M365/Entra ID | `05_Persist/PERSIST-TRUST-002_T2T_Migration.md` |
-| PERSIST-PROCESS-001 | Directory Service Restore Mode Attack | T1543 | N/A | Windows AD | `05_Persist/PERSIST-PROCESS-001_DSRM_Attack.md` |
+| PERSIST-IMPAIR-001 | Conditional Access Policy Backdoors | T1562.001 | N/A | Entra ID | [05_Persist/PERSIST-IMPAIR-001_CA_Backdoor.md](05_Persist/PERSIST-IMPAIR-001_CA_Backdoor.md) |
+| PERSIST-IMPAIR-002 | Authentication Policy Backdoors | T1562.001 | N/A | Entra ID | [05_Persist/PERSIST-IMPAIR-002_Auth_Policy.md](05_Persist/PERSIST-IMPAIR-002_Auth_Policy.md) |
+| PERSIST-IMPAIR-003 | Microsoft Information Protection Labels | T1562.001 | N/A | M365 | [05_Persist/PERSIST-IMPAIR-003_MIP_Labels.md](05_Persist/PERSIST-IMPAIR-003_MIP_Labels.md) |
+| PERSIST-TRUST-001 | Federation Trust Configuration Tampering | T1484.002 | N/A | Cross-Cloud | [05_Persist/PERSIST-TRUST-001_Fed_Config.md](05_Persist/PERSIST-TRUST-001_Fed_Config.md) |
+| PERSIST-TRUST-002 | Tenant-to-Tenant Migration Abuse | T1484.002 | N/A | M365/Entra ID | [05_Persist/PERSIST-TRUST-002_T2T_Migration.md](05_Persist/PERSIST-TRUST-002_T2T_Migration.md) |
+| PERSIST-PROCESS-001 | Directory Service Restore Mode Attack | T1543 | N/A | Windows AD | [05_Persist/PERSIST-PROCESS-001_DSRM_Attack.md](05_Persist/PERSIST-PROCESS-001_DSRM_Attack.md) |
 
 ---
 
@@ -399,56 +399,56 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| EVADE-IMPAIR-001 | Disable Security Tools (AV/EDR) | T1562.001 | N/A | Windows Endpoint | `06_Evasion/EVADE-IMPAIR-001_Disable_AV.md` |
-| EVADE-IMPAIR-002 | AMSI Bypass Techniques | T1562.001 | CVE-2019-0604 | Windows Endpoint | `06_Evasion/EVADE-IMPAIR-002_AMSI_Bypass.md` |
-| EVADE-IMPAIR-003 | PowerShell Script Block Logging Bypass | T1562.002 | N/A | Windows Endpoint | `06_Evasion/EVADE-IMPAIR-003_PSBLock_Bypass.md` |
-| EVADE-IMPAIR-004 | Event Log Clearing | T1070.001 | N/A | Windows Endpoint | `06_Evasion/EVADE-IMPAIR-004_EventLog.md` |
-| EVADE-IMPAIR-005 | Azure Function Runtime Manipulation | T1562 | N/A | Entra ID | `06_Evasion/EVADE-IMPAIR-005_Azure_Runtime.md` |
-| EVADE-IMPAIR-006 | Azure Run Command Obfuscation | T1562 | N/A | Entra ID | `06_Evasion/EVADE-IMPAIR-006_Run_Command.md` |
-| EVADE-IMPAIR-007 | M365 Audit Log Tampering | T1562.008 | N/A | M365 | `06_Evasion/EVADE-IMPAIR-007_Audit_Log.md` |
-| EVADE-IMPAIR-008 | Conditional Access Exclusion Abuse | T1562.001 | N/A | Entra ID | `06_Evasion/EVADE-IMPAIR-008_CA_Exclusion.md` |
-| EVADE-IMPAIR-009 | Exchange Transport Rule Evasion | T1562 | N/A | M365 | `06_Evasion/EVADE-IMPAIR-009_Transport_Rule.md` |
-| EVADE-IMPAIR-010 | Security Group Exemption Abuse | T1562.001 | N/A | Entra ID/M365 | `06_Evasion/EVADE-IMPAIR-010_Security_Group.md` |
-| EVADE-IMPAIR-011 | Azure Identity Protection Evasion | T1562 | N/A | Entra ID | `06_Evasion/EVADE-IMPAIR-011_IdentityProt.md` |
-| EVADE-IMPAIR-012 | Sentinel Detection Rule Bypass | T1562.001 | N/A | Entra ID | `06_Evasion/EVADE-IMPAIR-012_Sentinel.md` |
-| EVADE-IMPAIR-013 | Defender for Cloud Apps Bypass | T1562.001 | N/A | M365 | `06_Evasion/EVADE-IMPAIR-013_Cloud_Apps.md` |
-| EVADE-IMPAIR-014 | Defender for Endpoint Bypass | T1562.001 | N/A | Windows Endpoint/M365 | `06_Evasion/EVADE-IMPAIR-014_MDE_Bypass.md` |
-| EVADE-IMPAIR-015 | MDE/EDR Sensor Tampering | T1562.001 | N/A | Windows Endpoint/M365 | `06_Evasion/EVADE-IMPAIR-015_Sensor_Tamper.md` |
-| EVADE-IMPAIR-016 | Kerberos Clock Synchronization Attack | T1562.006 | N/A | Windows AD | `06_Evasion/EVADE-IMPAIR-016_Kerberos_Clock.md` |
-| EVADE-IMPAIR-017 | Kerberos Encryption Downgrade | T1562.006 | N/A | Windows AD | `06_Evasion/EVADE-IMPAIR-017_Kerb_Downgrade.md` |
-| EVADE-IMPAIR-018 | Azure Guest Configuration Tampering | T1562 | N/A | Entra ID | `06_Evasion/EVADE-IMPAIR-018_Guest_Config.md` |
-| EVADE-IMPAIR-019 | Azure Policy Assignment Gaps | T1562 | N/A | Entra ID | `06_Evasion/EVADE-IMPAIR-019_Policy_Gaps.md` |
-| EVADE-IMPAIR-020 | Microsoft Defender Misconfiguration | T1562.001 | N/A | M365/Entra ID | `06_Evasion/EVADE-IMPAIR-020_Defender_Misconfig.md` |
-| EVADE-IMPAIR-021 | StrongCertificateBindingEnforcement=0 | T1562.001 | N/A | Windows AD | `06_Evasion/EVADE-IMPAIR-021_StrongCert.md` |
-| EVADE-IMPAIR-022 | Certificate CT_FLAG_NO_SECURITY | T1562.001 | N/A | Windows AD | `06_Evasion/EVADE-IMPAIR-022_CT_Flag.md` |
+| EVADE-IMPAIR-001 | Disable Security Tools (AV/EDR) | T1562.001 | N/A | Windows Endpoint | [06_Evasion/EVADE-IMPAIR-001_Disable_AV.md](06_Evasion/EVADE-IMPAIR-001_Disable_AV.md) |
+| EVADE-IMPAIR-002 | AMSI Bypass Techniques | T1562.001 | CVE-2019-0604 | Windows Endpoint | [06_Evasion/EVADE-IMPAIR-002_AMSI_Bypass.md](06_Evasion/EVADE-IMPAIR-002_AMSI_Bypass.md) |
+| EVADE-IMPAIR-003 | PowerShell Script Block Logging Bypass | T1562.002 | N/A | Windows Endpoint | [06_Evasion/EVADE-IMPAIR-003_PSBLock_Bypass.md](06_Evasion/EVADE-IMPAIR-003_PSBLock_Bypass.md) |
+| EVADE-IMPAIR-004 | Event Log Clearing | T1070.001 | N/A | Windows Endpoint | [06_Evasion/EVADE-IMPAIR-004_EventLog.md](06_Evasion/EVADE-IMPAIR-004_EventLog.md) |
+| EVADE-IMPAIR-005 | Azure Function Runtime Manipulation | T1562 | N/A | Entra ID | [06_Evasion/EVADE-IMPAIR-005_Azure_Runtime.md](06_Evasion/EVADE-IMPAIR-005_Azure_Runtime.md) |
+| EVADE-IMPAIR-006 | Azure Run Command Obfuscation | T1562 | N/A | Entra ID | [06_Evasion/EVADE-IMPAIR-006_Run_Command.md](06_Evasion/EVADE-IMPAIR-006_Run_Command.md) |
+| EVADE-IMPAIR-007 | M365 Audit Log Tampering | T1562.008 | N/A | M365 | [06_Evasion/EVADE-IMPAIR-007_Audit_Log.md](06_Evasion/EVADE-IMPAIR-007_Audit_Log.md) |
+| EVADE-IMPAIR-008 | Conditional Access Exclusion Abuse | T1562.001 | N/A | Entra ID | [06_Evasion/EVADE-IMPAIR-008_CA_Exclusion.md](06_Evasion/EVADE-IMPAIR-008_CA_Exclusion.md) |
+| EVADE-IMPAIR-009 | Exchange Transport Rule Evasion | T1562 | N/A | M365 | [06_Evasion/EVADE-IMPAIR-009_Transport_Rule.md](06_Evasion/EVADE-IMPAIR-009_Transport_Rule.md) |
+| EVADE-IMPAIR-010 | Security Group Exemption Abuse | T1562.001 | N/A | Entra ID/M365 | [06_Evasion/EVADE-IMPAIR-010_Security_Group.md](06_Evasion/EVADE-IMPAIR-010_Security_Group.md) |
+| EVADE-IMPAIR-011 | Azure Identity Protection Evasion | T1562 | N/A | Entra ID | [06_Evasion/EVADE-IMPAIR-011_IdentityProt.md](06_Evasion/EVADE-IMPAIR-011_IdentityProt.md) |
+| EVADE-IMPAIR-012 | Sentinel Detection Rule Bypass | T1562.001 | N/A | Entra ID | [06_Evasion/EVADE-IMPAIR-012_Sentinel.md](06_Evasion/EVADE-IMPAIR-012_Sentinel.md) |
+| EVADE-IMPAIR-013 | Defender for Cloud Apps Bypass | T1562.001 | N/A | M365 | [06_Evasion/EVADE-IMPAIR-013_Cloud_Apps.md](06_Evasion/EVADE-IMPAIR-013_Cloud_Apps.md) |
+| EVADE-IMPAIR-014 | Defender for Endpoint Bypass | T1562.001 | N/A | Windows Endpoint/M365 | [06_Evasion/EVADE-IMPAIR-014_MDE_Bypass.md](06_Evasion/EVADE-IMPAIR-014_MDE_Bypass.md) |
+| EVADE-IMPAIR-015 | MDE/EDR Sensor Tampering | T1562.001 | N/A | Windows Endpoint/M365 | [06_Evasion/EVADE-IMPAIR-015_Sensor_Tamper.md](06_Evasion/EVADE-IMPAIR-015_Sensor_Tamper.md) |
+| EVADE-IMPAIR-016 | Kerberos Clock Synchronization Attack | T1562.006 | N/A | Windows AD | [06_Evasion/EVADE-IMPAIR-016_Kerberos_Clock.md](06_Evasion/EVADE-IMPAIR-016_Kerberos_Clock.md) |
+| EVADE-IMPAIR-017 | Kerberos Encryption Downgrade | T1562.006 | N/A | Windows AD | [06_Evasion/EVADE-IMPAIR-017_Kerb_Downgrade.md](06_Evasion/EVADE-IMPAIR-017_Kerb_Downgrade.md) |
+| EVADE-IMPAIR-018 | Azure Guest Configuration Tampering | T1562 | N/A | Entra ID | [06_Evasion/EVADE-IMPAIR-018_Guest_Config.md](06_Evasion/EVADE-IMPAIR-018_Guest_Config.md) |
+| EVADE-IMPAIR-019 | Azure Policy Assignment Gaps | T1562 | N/A | Entra ID | [06_Evasion/EVADE-IMPAIR-019_Policy_Gaps.md](06_Evasion/EVADE-IMPAIR-019_Policy_Gaps.md) |
+| EVADE-IMPAIR-020 | Microsoft Defender Misconfiguration | T1562.001 | N/A | M365/Entra ID | [06_Evasion/EVADE-IMPAIR-020_Defender_Misconfig.md](06_Evasion/EVADE-IMPAIR-020_Defender_Misconfig.md) |
+| EVADE-IMPAIR-021 | StrongCertificateBindingEnforcement=0 | T1562.001 | N/A | Windows AD | [06_Evasion/EVADE-IMPAIR-021_StrongCert.md](06_Evasion/EVADE-IMPAIR-021_StrongCert.md) |
+| EVADE-IMPAIR-022 | Certificate CT_FLAG_NO_SECURITY | T1562.001 | N/A | Windows AD | [06_Evasion/EVADE-IMPAIR-022_CT_Flag.md](06_Evasion/EVADE-IMPAIR-022_CT_Flag.md) |
 
 ## Subcategory 6.2: Obfuscation & System Abuse (3 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| EVADE-OBFUS-001 | Obfuscated Scripts | T1027 | N/A | Windows Endpoint | `06_Evasion/EVADE-OBFUS-001_Obfuscation.md` |
-| EVADE-OBFUS-002 | Azure Automation Runbook Obfuscation | T1027 | N/A | Entra ID | `06_Evasion/EVADE-OBFUS-002_Runbook_Obfus.md` |
-| EVADE-BINARY-001 | Living off the Land (LoLBins) | T1218 | N/A | Windows Endpoint | `06_Evasion/EVADE-BINARY-001_LoLBins.md` |
+| EVADE-OBFUS-001 | Obfuscated Scripts | T1027 | N/A | Windows Endpoint | [06_Evasion/EVADE-OBFUS-001_Obfuscation.md](06_Evasion/EVADE-OBFUS-001_Obfuscation.md) |
+| EVADE-OBFUS-002 | Azure Automation Runbook Obfuscation | T1027 | N/A | Entra ID | [06_Evasion/EVADE-OBFUS-002_Runbook_Obfus.md](06_Evasion/EVADE-OBFUS-002_Runbook_Obfus.md) |
+| EVADE-BINARY-001 | Living off the Land (LoLBins) | T1218 | N/A | Windows Endpoint | [06_Evasion/EVADE-BINARY-001_LoLBins.md](06_Evasion/EVADE-BINARY-001_LoLBins.md) |
 
 ## Subcategory 6.3: Registry, Timestomping & Artifacts (15 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| EVADE-REGISTRY-001 | WDigest Registry Manipulation | T1112 | N/A | Windows Endpoint | `06_Evasion/EVADE-REGISTRY-001_WDigest.md` |
-| EVADE-INDICATOR-001 | Timestomping | T1070.006 | N/A | Windows Endpoint | `06_Evasion/EVADE-INDICATOR-001_Timestomp.md` |
-| EVADE-HIJACK-001 | Trusted Path Hijacking | T1574 | N/A | Windows Endpoint | `06_Evasion/EVADE-HIJACK-001_Path_Hijack.md` |
-| EVADE-HIDE-001 | Microsoft Teams Message Hiding | T1564 | N/A | M365 | `06_Evasion/EVADE-HIDE-001_Teams_Message.md` |
-| EVADE-PERMS-001 | Loose or Default ACLs | T1222 | N/A | Windows AD | `06_Evasion/EVADE-PERMS-001_ACLs.md` |
-| EVADE-PERMS-002 | GPO Creator Permission Model | T1222 | N/A | Windows AD | `06_Evasion/EVADE-PERMS-002_GPO_Perms.md` |
-| EVADE-DATA-001 | Azure Storage Soft Delete Bypass | T1485 | N/A | Entra ID | `06_Evasion/EVADE-DATA-001_Storage_Delete.md` |
-| EVADE-MFA-001 | Azure MFA Bypass Techniques | T1556.006 | N/A | Entra ID | `06_Evasion/EVADE-MFA-001_MFA_Bypass.md` |
-| EVADE-MFA-002 | Windows Hello for Business Bypasses | T1556 | N/A | Hybrid AD | `06_Evasion/EVADE-MFA-002_WHfB_Bypass.md` |
-| EVADE-MFA-003 | FIDO2 Security Key Cloning | T1556 | N/A | Entra ID | `06_Evasion/EVADE-MFA-003_FIDO2_Clone.md` |
-| EVADE-MFA-004 | Legacy Authentication Enabled | T1556 | N/A | Entra ID/M365 | `06_Evasion/EVADE-MFA-004_Legacy_Auth.md` |
-| EVADE-MFA-005 | CLFS Driver Authentication Bypass | T1556.006 | CVE-2025-29824 | Windows Endpoint | `06_Evasion/EVADE-MFA-005_CLFS_Auth.md` |
-| EVADE-VALID-001 | Azure PIM Role Activation Obfuscation | T1078.004 | N/A | Entra ID | `06_Evasion/EVADE-VALID-001_PIM_Obfus.md` |
-| EVADE-VALID-002 | External Guest Invitation for Bypass | T1078.004 | N/A | Entra ID | `06_Evasion/EVADE-VALID-002_Guest_Bypass.md` |
-| EVADE-IMPLANT-001 | Azure Compute Gallery Image Template | T1525 | N/A | Entra ID | `06_Evasion/EVADE-IMPLANT-001_Gallery_Image.md` |
+| EVADE-REGISTRY-001 | WDigest Registry Manipulation | T1112 | N/A | Windows Endpoint | [06_Evasion/EVADE-REGISTRY-001_WDigest.md](06_Evasion/EVADE-REGISTRY-001_WDigest.md) |
+| EVADE-INDICATOR-001 | Timestomping | T1070.006 | N/A | Windows Endpoint | [06_Evasion/EVADE-INDICATOR-001_Timestomp.md](06_Evasion/EVADE-INDICATOR-001_Timestomp.md) |
+| EVADE-HIJACK-001 | Trusted Path Hijacking | T1574 | N/A | Windows Endpoint | [06_Evasion/EVADE-HIJACK-001_Path_Hijack.md](06_Evasion/EVADE-HIJACK-001_Path_Hijack.md) |
+| EVADE-HIDE-001 | Microsoft Teams Message Hiding | T1564 | N/A | M365 | [06_Evasion/EVADE-HIDE-001_Teams_Message.md](06_Evasion/EVADE-HIDE-001_Teams_Message.md) |
+| EVADE-PERMS-001 | Loose or Default ACLs | T1222 | N/A | Windows AD | [06_Evasion/EVADE-PERMS-001_ACLs.md](06_Evasion/EVADE-PERMS-001_ACLs.md) |
+| EVADE-PERMS-002 | GPO Creator Permission Model | T1222 | N/A | Windows AD | [06_Evasion/EVADE-PERMS-002_GPO_Perms.md](06_Evasion/EVADE-PERMS-002_GPO_Perms.md) |
+| EVADE-DATA-001 | Azure Storage Soft Delete Bypass | T1485 | N/A | Entra ID | [06_Evasion/EVADE-DATA-001_Storage_Delete.md](06_Evasion/EVADE-DATA-001_Storage_Delete.md) |
+| EVADE-MFA-001 | Azure MFA Bypass Techniques | T1556.006 | N/A | Entra ID | [06_Evasion/EVADE-MFA-001_MFA_Bypass.md](06_Evasion/EVADE-MFA-001_MFA_Bypass.md) |
+| EVADE-MFA-002 | Windows Hello for Business Bypasses | T1556 | N/A | Hybrid AD | [06_Evasion/EVADE-MFA-002_WHfB_Bypass.md](06_Evasion/EVADE-MFA-002_WHfB_Bypass.md) |
+| EVADE-MFA-003 | FIDO2 Security Key Cloning | T1556 | N/A | Entra ID | [06_Evasion/EVADE-MFA-003_FIDO2_Clone.md](06_Evasion/EVADE-MFA-003_FIDO2_Clone.md) |
+| EVADE-MFA-004 | Legacy Authentication Enabled | T1556 | N/A | Entra ID/M365 | [06_Evasion/EVADE-MFA-004_Legacy_Auth.md](06_Evasion/EVADE-MFA-004_Legacy_Auth.md) |
+| EVADE-MFA-005 | CLFS Driver Authentication Bypass | T1556.006 | CVE-2025-29824 | Windows Endpoint | [06_Evasion/EVADE-MFA-005_CLFS_Auth.md](06_Evasion/EVADE-MFA-005_CLFS_Auth.md) |
+| EVADE-VALID-001 | Azure PIM Role Activation Obfuscation | T1078.004 | N/A | Entra ID | [06_Evasion/EVADE-VALID-001_PIM_Obfus.md](06_Evasion/EVADE-VALID-001_PIM_Obfus.md) |
+| EVADE-VALID-002 | External Guest Invitation for Bypass | T1078.004 | N/A | Entra ID | [06_Evasion/EVADE-VALID-002_Guest_Bypass.md](06_Evasion/EVADE-VALID-002_Guest_Bypass.md) |
+| EVADE-IMPLANT-001 | Azure Compute Gallery Image Template | T1525 | N/A | Entra ID | [06_Evasion/EVADE-IMPLANT-001_Gallery_Image.md](06_Evasion/EVADE-IMPLANT-001_Gallery_Image.md) |
 
 ---
 
