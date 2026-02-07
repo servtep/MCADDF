@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="iE7QfA9P5D47xNoMHkd9lHWGWxP1ElzvHymM0FA_bxI" />
+
 # MCADDF - Microsoft Cybersecurity Attack, Detection & Defense Framework
 
 [![Maintenance](https://img.shields.io/badge/Maintained%20by-SERVTEP-blue)](https://servtep.com)
