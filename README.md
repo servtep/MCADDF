@@ -13,6 +13,25 @@ Built and Maintained with ❤️ in France by **[SERVTEP](https://servtep.com)**
 
 ---
 
+## 🛡️ Related Project — AD Service Account Manager
+
+> **Struggling with unmanaged service accounts and identity debt in Active Directory?**
+
+**[AD Service Account Manager](https://github.com/SERVTEP/AD-Service-Account-Manager)** is an enterprise-grade PowerShell framework that brings full lifecycle governance, proactive threat detection, and tamper-evident auditing to your AD environment.
+
+| Feature | What it does |
+|---|---|
+| 🔍 **Security Scanning** | Detects Kerberoasting, AS-REP Roasting, Unconstrained Delegation & Shadow Admins |
+| ♻️ **Lifecycle Management** | Provision, clone, bulk-import, and decommission service accounts with guardrails |
+| 🗺️ **Dependency Mapping** | WMI/WS-Man discovery prevents service outages before any modification |
+| 📊 **Compliance Reporting** | HTML, JSON, CEF & Syslog exports aligned with CIS, NIST SP 800-53 & ISO 27001 |
+| 🔒 **Drift Detection** | Baseline snapshots catch unauthorized mutations before they become incidents |
+
+[![View Project](https://img.shields.io/badge/View%20Project-AD%20Service%20Account%20Manager-blue?style=for-the-badge&logo=github)](https://github.com/SERVTEP/AD-Service-Account-Manager)
+[![Author](https://img.shields.io/badge/By-SERVTEP-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/artur-pchelnikau/)
+
+---
+
 ## 📖 Overview
 
 The **Microsoft Cybersecurity Attack, Detection & Defense Framework** is a holistic repository designed to bridge the critical gap between traditional on-premises security and modern cloud-native defense.
