@@ -28,7 +28,6 @@ Built and Maintained with ❤️ in France by **[SERVTEP](https://servtep.com)**
 | 🔒 **Drift Detection** | Baseline snapshots catch unauthorized mutations before they become incidents |
 
 [![View Project](https://img.shields.io/badge/View%20Project-AD%20Service%20Account%20Manager-blue?style=for-the-badge&logo=github)](https://github.com/SERVTEP/AD-Service-Account-Manager)
-[![Author](https://img.shields.io/badge/by-Lead_Architect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/artur-pchelnikau/)
 
 ---
 
