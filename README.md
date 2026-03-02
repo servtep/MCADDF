@@ -9,7 +9,7 @@
 
 **The definitive operational blueprint for Hybrid Identity and Cloud Security.**
 
-Built and Maintained with ❤️ in France by **[SERVTEP](https://servtep.com)** | Lead Architect: **[Pchelnikau Artur](https://www.linkedin.com/in/artur-pchelnikau/)**
+Built and Maintained in France by **[SERVTEP](https://servtep.com)** | Lead Architect: **[Pchelnikau Artur](https://www.linkedin.com/in/artur-pchelnikau/)**
 
 ---
 
@@ -201,5 +201,5 @@ This project is licensed under the terms of the [LICENSE](./LICENSE) file.
 ---
 
 <p align="center">
-  Built with ❤️ in France by <strong>SERVTEP</strong>
+  Built in France by <strong>SERVTEP</strong>
 </p>
